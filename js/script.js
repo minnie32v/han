@@ -52,60 +52,79 @@ $(function(){
       $(".loading").fadeOut();  //關閉 loading
       });
 
-	//function popup_video(){
-	//	var videoActive = $('.video_list li a');
-	//    //開啟影片 POPUP
-	//    videoActive.click(function() {
-	//    	var embedNum = $(this).data('youtube');  //讀取 HTML 的影片編號 (data-youtube )
-	//    	$('.video iframe').attr('src','https://www.youtube.com/embed/'+embedNum+'?rel=0&amp;showinfo=0;autoplay=1');
-	//    	$('.popup').stop().addClass('on');
+	$('.owl-carousel.slider').owlCarousel({
+		    items: 1,
+		    margin: 32,
+		    loop: true,
+		    nav: true,
+		    autoplay:true,
+  		    autoplayTimeout:2000,
+		});
+		$('.owl-carousel').owlCarousel({
+		    items: 4,
+		    margin: 32,
+		    loop: true,
+		    nav: true,
+		    autoplay:true,
+  		    autoplayTimeout:2000,
+		});
 
-	//	    //算是第幾支影片
-	//	    var num = $(this).parent().prevAll().length;
-	//	    $('.video_block h3 span').text(num+1);
+		$(window).scroll(function() {
+			// var screenheight = $(this).height();
+			var scrolledpx = $(this).scrollTop();
+			if(scrolledpx >= 100){
+				$('.age').addClass('active');
+			}else{
+				$('.age').removeClass('active');
+			}
+			if(scrolledpx >= 300){
+				$('.header').addClass('active');
+			}else{
+				$('.header').removeClass('active');
+			}					
+		});
+
+		// JavaScript 進場效果
+		// 共用的數值
+		window.sr = ScrollReveal({
+			// 速度
+			duration: 800,
+			// 距離
+			distance: '100px',
+			// 重複播放
+			reset: true,
+			// 初始定位 origin:'left'
+		});
+		sr.reveal('.js-moveInUp');
+		sr.reveal('.js-moveInRight',{origin:'left'});
+		sr.reveal('.js-moveInLeft',{origin:'right'});
+		// 進場時間差
+		sr.reveal('.event .js-moveInUp',100);
+		// sr.reveal('.logo-moveInUp',{
+		// 	duration: 800,
+		// 	distance: '24px',
+		// 	reset: false,
+		// 	origin:'bottom',
+		// });
 
 
-	//    });
-
-	//    // 影片輪播按鈕
-	//    $('.arrow').on('click',function(){
-	//    	var num = parseInt($('.video_block h3 span').text());
-	//    	if( $(this).hasClass('prev') ){
-	//    		if( num <= 1 ){ //如果是第一支影片
-	//    			num = videoActive.length; //則跳到最後一支影片
-	//    		}else{
-	//    			num--;
-	//    		}
-	//    		videoReset();
-	//    	}else{
-	//    		if( num >= videoActive.length ){ //如果是最後一支影片
-	//    			num = 1;  //則跳到第一支影片
-	//    		}else{
-	//    			num++;
-	//    		}
-	//    		videoReset();
-	//    	}
-	//	    //更新影片
-	//	    function videoReset(){ 
-	//	    	var embedNum = videoActive.eq(num-1).data('youtube');
-	//	    	$('.video_block h3 span').text(num);
-	//	    	$('.video iframe').attr('src','https://www.youtube.com/embed/'+embedNum+'?rel=0&amp;showinfo=0;autoplay=1');
-	//	    	console.log(num ,embedNum,videoActive.index());
-	//	    };
-	//    });
+		//燈箱效果fancybox option
+		$('[data-fancybox]').fancybox({
+			buttons : [
+			// 'slideShow',
+        	// 'fullScreen',
+        	'thumbs',
+            // 'share',
+       		//'download',
+     		//'zoom',
+        	'close'],
+		});
 
 
-	//    //關閉影片 POPUP
-	//    //除了 POPUP 內容物，點選範圍都可以關閉跳窗
-	//    $('.popup ,.popup .close').click(function(){
-	//    	$('.popup').removeClass('on');
-	//    	$('.video iframe').removeAttr('src');
-
-	//    }).children().click(function(){
-	//	  	return false;
-	//	});
-	//};
-    //popup_video();
+		// 視差滾動效果
+		var rellax = new Rellax('.rellax', {
+ 		  center: true
+		});
 
 });
 
