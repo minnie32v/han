@@ -41,6 +41,7 @@ select{ font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, H
   max-width: 1000px;
   margin: 0 auto;
   padding: 40px 0;
+  margin-top: 80px;
 }
 
 /* 連結動態變化 */
@@ -390,6 +391,7 @@ nav{
 /* $Pad
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:600px) and (max-width:1024px){
+
 
 
 }
