@@ -1,0 +1,125 @@
+/* news-list */
+/* 篩選功能 */
+.tab{
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+   justify-content: center;
+}
+.category{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    color: #B50528;
+    background-color: #fff;
+    border: 1px solid #B50528;
+    border-radius: 8px;
+    margin-right: 16px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.category:hover {
+    background-color:#B50528;
+    color: #fff;
+}
+
+.mixitup-control-active[data-filter] {
+    background-color:#B50528;
+    color: #fff;
+}
+
+/* 分頁 */
+.controls-pagination {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.mixitup-page-list{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.mixitup-control{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #707070;
+    transition: color 150ms, border-color 150ms;
+    vertical-align: middle;
+    border-radius: 8px;
+}
+
+.mixitup-control-prev,.mixitup-control-next{
+    border: 1px solid #707070;
+}
+.mixitup-control:not(.mixitup-control-active):hover {
+	background-color: #fff;
+    color: #B50528;
+    border: 1px solid #B50528;
+}
+
+.mixitup-control-active {
+    border: none;
+    border-radius: 8px;
+    background-color: #B50528;
+    color: #fff;
+    cursor: default;
+}
+
+.mixitup-control:disabled {
+    background: #eaeaea;
+    cursor: default;
+}
+
+.mixitup-control-truncation-marker {
+    background: transparent;
+    pointer-events: none;
+    line-height: 1.8em;
+}
+
+
+/* $Pad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:600px) and (max-width:1024px){
+
+
+}
+
+
+/* $Mobile
+--------------------------------------------------------------------------------------*/
+@media screen and (max-width: 1025px){
+.tab{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px auto 0 auto;
+}
+
+.category{
+    width: calc(100%/3 - 8px);
+    margin: 4px 4px;
+}
+
+.mixitup-page-list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mixitup-control{
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+}
+.mixitup-control-truncation-marker {
+    line-height: 1.5em;
+}
+
+
+}

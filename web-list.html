@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+	<head>
+		<!-- viewport -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no">
+		<title>Han's Protfolio</title>
+		
+		<!-- icon font -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!-- reset -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		
+		<!-- custom css -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="js/lib/slick/slick.css">
+		<link rel="stylesheet" href="js/lib/slick/slick-theme.css">		
+		<link rel="stylesheet" href="css/pagination.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- jQuery -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/lib/slick/slick.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>		
+		<script src="js/pagination.js"></script>
+		<script src="js/lib/mixitup-3/mixitup.min.js"></script>
+		<script src="js/lib/mixitup-3/mixitup-pagination.js"></script>
+		<!-- custom js -->
+		<script src="js/script.js"></script>
+		
+	</head>
+	<body>
+		<header></header>		
+		<!-- 寄件 -->
+		<section class="container">
+			<!-- 麵包屑 -->
+			<div class="top-container">
+				<div class="breadcrumb">
+					<a href="">首頁</a>
+					<a href="">最新消息</a>
+				</div>
+			</div>
+			<div class="tab">
+				<button type="button" class="category" data-filter="all">全部</button>
+				<button type="button" class="category" data-filter=".latest-news">最新消息</button>
+				<button type="button" class="category" data-filter=".new-arrival">新品上市</button>
+				<button type="button" class="category" data-filter=".store-info">門市公告</button>
+				<button type="button" class="category" data-filter=".promotions">優惠活動</button>
+				<button type="button" class="category" data-filter=".activity-record">活動紀錄</button>
+			</div>
+			<div class="list-content">
+				<div class="mix latest-news col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">最多十九個字，文章標題文章標題文章標題</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix new-arrival col-3">
+					<a href="news-page.html">
+						<img src="images/news-2.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix store-info col-3">
+					<a href="news-page.html">
+						<img src="images/news-3.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix promotions col-3">
+					<a href="news-page.html">
+						<img src="images/news-4.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="images/news-3.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix latest-news col-3">
+					<a href="news-page.html">
+						<img src="images/news-1.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix new-arrival col-3">
+					<a href="news-page.html">
+						<img src="images/news-2.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix store-info col-3">
+					<a href="news-page.html">
+						<img src="images/news-3.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix promotions col-3">
+					<a href="news-page.html">
+						<img src="images/news-4.png" alt="">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+				<div class="mix activity-record col-3">
+					<a href="news-page.html">
+						<img src="https://fakeimg.pl/380x260/ececec/">
+						<div class="date">2020.01.01</div>
+						<div class="title">第一名店進駐安永鮮物板橋車站店囉！</div>
+						<p class="article">
+							最多四十七個字，內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內文內...
+						</p>
+					</a>
+				</div>
+			</div>
+			<!-- 分頁 -->
+			<div class="controls-pagination">
+				<div class="mixitup-page-list"></div>
+			</div>
+			<input type="hidden" class="column-counter"/>
+	
+			
+		</section>
+		<!-- end 寄件 -->
+		
+		<footer></footer>
+	</body>
+	<script>
+	// JavaScript Document
+	$(document).ready(function(){
+		// slick輪播
+		$('.kv-slick').slick({
+			dots: true,
+			arrows:true,
+			infinite: true,
+			autoplaySpeed: 3000,
+			autoplay:true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			responsive: [
+		{
+		breakpoint: 768,
+		settings: {
+		arrows: false
+		}
+		}
+		]
+		});
+	});
+	</script>
+</html>
