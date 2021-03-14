@@ -2,10 +2,9 @@
 /* 篩選功能 */
 .tab{
     width: 100%;
-    /* max-width: 1200px; */
     margin: 24px auto;
     display: flex;
-   justify-content: space-between;
+   justify-content: center;
 }
 .category{
     width: 160px;
@@ -16,6 +15,7 @@
     border: 1px solid #484848;
     border-radius: 8px;
     font-size: 1em;
+    margin: 0 4px;
 }
 .category:hover {
     background-color:#484848;
