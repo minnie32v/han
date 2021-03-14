@@ -18,7 +18,7 @@
     font-size: 1em;
 }
 .category:hover {
-    background-color:#000;
+    background-color:#484848;
     color: #fff;
 }
 
@@ -43,19 +43,19 @@
     position: relative;
     display: inline-block;
     text-align: center;
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     background: #fff;
     cursor: pointer;
     font-size: 1em;
+    border-radius: 8px;
     color: #707070;
     transition: color 150ms, border-color 150ms;
     vertical-align: middle;
-    border-radius: 8px;
 }
 
 .mixitup-control-prev,.mixitup-control-next{
-    border: 1px solid #707070;
+    /* border: 1px solid #707070; */
 }
 .mixitup-control:not(.mixitup-control-active):hover {
 	background-color: #fff;
@@ -66,13 +66,13 @@
 .mixitup-control-active {
     border: none;
     border-radius: 8px;
-    background-color: #B50528;
-    color: #fff;
+    background-color: #eaeaea;
+    color: #484848;
     cursor: default;
 }
 
 .mixitup-control:disabled {
-    background: #eaeaea;
+    /* background: #eaeaea; */
     cursor: default;
 }
 
