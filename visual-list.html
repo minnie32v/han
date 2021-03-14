@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+	<head>
+		<!-- viewport -->
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="format-detection" content="telephone=no">
+		<title>Han's Protfolio</title>
+		<link rel="shortcut icon" href="images/design_favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/design_favicon.ico" type="image/x-icon">
+		<!-- icon font -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<!-- reset -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		
+		<!-- custom css -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="js/lib/slick/slick.css">
+		<link rel="stylesheet" href="js/lib/slick/slick-theme.css">
+		<link rel="stylesheet" href="css/pagination.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- jQuery -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<script src="js/lib/slick/slick.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/pagination.js"></script>
+		<script src="js/lib/mixitup-3/mixitup.min.js"></script>
+		<script src="js/lib/mixitup-3/mixitup-pagination.js"></script>
+		<!-- custom js -->
+		<script src="js/script.js"></script>
+		
+	</head>
+	<body>
+	<header></header>
+	<!-- 寄件 -->
+	<section class="container">
+		<div class="tab">
+			<button type="button" class="category" data-filter="all">全部</button>
+			<button type="button" class="category" data-filter=".seven">7-ELEVEN</button>
+			<button type="button" class="category" data-filter=".citycafe">City Cafe</button>
+			<button type="button" class="category" data-filter=".openpoint">OPEN POINT</button>
+			<button type="button" class="category" data-filter=".starbucks">星巴克</button>
+			<button type="button" class="category" data-filter=".other">其他</button>
+		</div>
+		<div class="list-content">
+			<div class="mix seven col-2">
+				<figure class="effect-sadie">
+					<img src="https://fakeimg.pl/500x400/ececec/">
+					<figcaption>
+					<h2>7-ELEVEN</h2>
+					<p>網站改版/檔期維護</p>
+					<a href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="mix seven col-2">
+				<figure class="effect-sadie">
+					<img src="https://fakeimg.pl/500x400/ececec/">
+					<figcaption>
+					<h2>7-ELEVEN</h2>
+					<p>網站改版/檔期維護</p>
+					<a href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="mix citycafe col-2">
+				<figure class="effect-sadie">
+					<img src="https://fakeimg.pl/500x400/ececec/">
+					<figcaption>
+					<h2>City Cafe</h2>
+					<p>網站改版/檔期維護</p>
+					<a href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="mix openpoint col-2">
+				<figure class="effect-sadie">
+					<img src="https://fakeimg.pl/500x400/ececec/">
+					<figcaption>
+					<h2>OPEN POINT</h2>
+					<p>網站改版/檔期維護</p>
+					<a href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="mix starbucks col-2">
+				<figure class="effect-sadie">
+					<img src="https://fakeimg.pl/500x400/ececec/">
+					<figcaption>
+					<h2>星巴克</h2>
+					<p>網站改版/檔期維護</p>
+					<a href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="mix other col-2">
+				<figure class="effect-sadie">
+					<img src="https://fakeimg.pl/500x400/ececec/">
+					<figcaption>
+					<h2>其他</h2>
+					<p>網站改版/檔期維護</p>
+					<a href="#">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			
+		</div>
+		<!-- 分頁 -->
+		<div class="controls-pagination">
+			<div class="mixitup-page-list"></div>
+		</div>
+		<input type="hidden" class="column-counter"/>
+		
+		
+	</section>
+	<!-- end 寄件 -->
+	
+<footer></footer>
+</body>
+<script>
+// JavaScript Document
+$(document).ready(function(){
+	// slick輪播
+	$('.kv-slick').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		autoplaySpeed: 3000,
+		autoplay:true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [
+	{
+	breakpoint: 768,
+	settings: {
+	arrows: false
+	}
+	}
+	]
+	});
+});
+</script>
+</html>
