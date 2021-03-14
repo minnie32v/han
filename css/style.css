@@ -165,17 +165,20 @@ nav ul li:first-child a{
 }
 
 .col-3 a img{
+  width: 100%;
   -webkit-transition: transform 0.35s;
   transition: transform 0.35s;
 }
 
 .list-content .col-3 .date{
+  width: 100%;
   padding-top: 4px;
   box-sizing: border-box;
 }
 .list-content .col-3 .title{
+  width: 100%;
   color: #000;
-  font-size: 2em;
+  font-size: 1em;
   padding: 4px 0;
   text-align: left;
   box-sizing: border-box;
@@ -183,8 +186,9 @@ nav ul li:first-child a{
   transition: transform 0.35s;
 }
 .list-content .col-3 .article{
+  width: 100%;
   color: #707070;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 400;
   box-sizing: border-box;
 }

@@ -2,30 +2,28 @@
 /* 篩選功能 */
 .tab{
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 40px auto;
     display: flex;
-   justify-content: center;
+   justify-content: space-between;
 }
 .category{
-    width: 100px;
+    width: 160px;
     height: 40px;
     cursor: pointer;
-    color: #B50528;
+    color: #484848;
     background-color: #fff;
-    border: 1px solid #B50528;
+    border: 1px solid #484848;
     border-radius: 8px;
-    margin-right: 16px;
-    font-size: 1.8em;
-    font-weight: 600;
+    font-size: 1em;
 }
 .category:hover {
-    background-color:#B50528;
+    background-color:#000;
     color: #fff;
 }
 
 .mixitup-control-active[data-filter] {
-    background-color:#B50528;
+    background-color:#484848;
     color: #fff;
 }
 
@@ -49,7 +47,7 @@
     height: 48px;
     background: #fff;
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1em;
     color: #707070;
     transition: color 150ms, border-color 150ms;
     vertical-align: middle;
