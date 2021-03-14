@@ -310,7 +310,7 @@ figure.effect-sadie:hover p {
 html,body{ width: 100%; font-size: 16px; -webkit-text-size-adjust:none; }
 .container{
   width: auto;
-    padding: 20px 16px;
+  padding:0 16px;
 }
 
 
