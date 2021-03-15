@@ -436,22 +436,31 @@ visibility: hidden;
 \*------------------------------------*/
 
 .protfolio-intro-container{
-	background-image: url(../images/P01/slide-4.jpg);
+	background:url('../images/P01/slide-4.jpg') center center no-repeat; 
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: right;
 	background-attachment: fixed;
-	padding:100px 0;
+	padding:60px 0;
+
 }
+
 
 .protfolio-intro-container .title{
 	text-align: center;
 	font-size: 16px;
 	color: #f5f5f5;
 	line-height: 32px;
+	width: 700px;
+	margin: 0 auto;
 }
 
-
+@media (max-width: 1024px) {
+	.protfolio-intro-container{
+	padding:16px;
+	}
+	.protfolio-intro-container .title{
+		font-size: 12px;
+	}
+}
 
 
 .protfolio{
