@@ -170,7 +170,7 @@ figure.effect-layla figcaption::after {
 }
 
 figure.effect-layla h2 {
-  padding-top: 32%;
+  padding-top: 35%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
 }
