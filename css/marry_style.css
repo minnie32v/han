@@ -498,29 +498,6 @@ visibility: hidden;
 }
 
 
-/*footer*/
-.footer{
-	background-color: #484848;
-}
-.copyright{
-	letter-spacing: 0px;
-	text-align: center;
-	height: 40px;
-}
-.copyright p{
-	color: #fff;
-	line-height: 40px;
-}
-
-.copyright-link{
-	color: #ffaa00;
-}
-
-.copyright-link:hover{
-	color: #fff;
-}
-
-
 
 /*------------------------------------*\
     Plugins
