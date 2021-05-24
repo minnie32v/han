@@ -161,7 +161,7 @@ nav ul li:first-child a{
   display: inline-block;
   width: calc(100%/2 - 16px);
   box-sizing: border-box; 
-  margin: 16px 0;
+  margin: 40px 0;
 }
 
 /* ------------end 列表頁共用------------ */
