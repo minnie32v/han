@@ -1,7 +1,7 @@
 $(function(){
     var containerEl = document.querySelector('.container');
     window.mixer = mixitup(containerEl, {
-        pagination: { limit: 9 },  //一頁最多9個
+        pagination: { limit: 8 },  //一頁最多8個
         callbacks: {
             onMixClick: function (state, originalEvent) {
                     // 點選分類時，先把沒有資料的 label 隱藏
