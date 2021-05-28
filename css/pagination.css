@@ -59,8 +59,8 @@
 }
 .mixitup-control:not(.mixitup-control-active):hover {
 	background-color: #fff;
-    color: #B50528;
-    border: 1px solid #B50528;
+    color: #484848;
+    border: 1px solid #484848;
 }
 
 .mixitup-control-active {
