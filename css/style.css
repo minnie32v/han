@@ -112,17 +112,11 @@ nav ul li:first-child a{
 .navCheck{ display:none; font-size:0; opacity:0; pointer-events:none; }
 
 
-
-
-
-
 /*----------*\
   end header
 \*----------*/
 
 
-
-/* ---------- end header ---------- */
 
 
 /* ---------- kv ---------- */
@@ -166,8 +160,10 @@ nav ul li:first-child a{
 
 /* ------------end 列表頁共用------------ */
 
-/* ---------- footer ---------- */
 
+/*----------*\
+    footer
+\*----------*/
 
 .copyright{
   text-align: center;
@@ -175,9 +171,9 @@ nav ul li:first-child a{
   padding: 16px 0;
 }
 
-
-
-/* ---------- end footer ---------- */
+/*----------*\
+  end footer
+\*----------*/
 
 
 /* $Mobile
@@ -192,9 +188,9 @@ html,body{ width: 100%; font-size: 16px; -webkit-text-size-adjust:none; }
 
 
 
-/* ---------- header ---------- */
-
-
+/*----------*\
+    header
+\*----------*/
 .hide{ transform: none;}
 .header{
     display:flex;
@@ -320,12 +316,9 @@ nav{
   width: 100%; 
   z-index: 999;
 }
-
-
-
-
-/* ---------- end header ---------- */
-
+/*----------*\
+  end header
+\*----------*/
 
 /* ---------- kv ---------- */
 .kv-bg {
@@ -344,16 +337,17 @@ nav{
 }
 
 
-
-/* ---------- footer ---------- */
+/*----------*\
+    footer
+\*----------*/
 
 .copyright{
   font-size: 12px;
 }
 
-
-
-/* ---------- end footer ---------- */
+/*----------*\
+  end footer
+\*----------*/
 
 
 
@@ -370,13 +364,6 @@ nav{
 
 
 
-
-
-/* $橫的版型 */
-@media screen and (orientation:landscape){ 
-
-
-}
 
 
 
