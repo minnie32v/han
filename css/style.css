@@ -121,7 +121,7 @@ nav ul li:first-child a{
 }
 
 hr{
-  border: #484848;
+  border-top:1px solid #484848;
   margin: auto;
   height: 24px;
 }
@@ -277,7 +277,7 @@ nav{
   margin-top: 64px; 
 }
 hr {
-    border:#484848;
+    border-top:1px solid #484848;
     margin: 8px auto;
     width: 320px;
     height: 0;
