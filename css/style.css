@@ -54,7 +54,7 @@ a:hover{ color: #fdd000;}
 \*-----------------------*/
 
 .wrapper{ height:100%;}
-.container{ width: 100%; max-width: 1200px; margin: 0 auto; padding: 80px 0;}\
+.container{ width: 100%; max-width: 1200px; margin: 0 auto; padding: 80px 0;}
 .row{ display: flex; justify-content: space-between;}
 
 .col-2,.col-3,.col-4{ position: relative; display: inline-block; box-sizing: border-box; margin: 40px 0;}
