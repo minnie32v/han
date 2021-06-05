@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 /*------------------------------------------ Reset --------------------------------------------*/
+*{box-sizing: border-box;position:relative;/*border: 1px solid #000;*/}
+/*預設瀏覽器會有margin:10px要先歸零*/
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote{margin:0;padding:0}
 fieldset,img{border:0}
 address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:400}
@@ -9,7 +11,7 @@ q:before,q:after{content:''}
 abbr,acronym{border:0}
 a{background:transparent;text-decoration:none;color:inherit;cursor:pointer;line-height:1em;display:inline-block}
 a:active{outline:0}
-input,textarea,button,select,option{border:0;margin:0;outline:none;padding:0;font-size:1.6rem;font-family:'Noto Sans TC','Open Sans','Arial','Microsoft JhengHei','Apple LiGothic Medium',sans-serif;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none}
+input,textarea,button,select,option{border:0;margin:0;outline:none;padding:0;font-family:'Noto Sans TC','Open Sans','Arial','Microsoft JhengHei','Apple LiGothic Medium',sans-serif;-webkit-appearance:none;-moz-appearance:none;-ms-appearance:none;appearance:none}
 select::-ms-expand{display:none}
 input::-moz-placeholder,textarea::-moz-placeholder{color:#ccc}
 input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#ccc}
@@ -18,9 +20,8 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#ccc}
 /* font */
 :before ,:after{ font-family:'Font Awesome 5 Free','Linearicons-Free',"微軟正黑體";}
 
-
 /* body,html */
-html,body{position: relative; width: 100%; height: 100%; color: #484848; font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif;}
+html,body{position: relative; width: 100%; height: 100%; font-size:10px; letter-spacing: 0.1em; line-height: 1.5; color: #484848; font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif;}
 
 /* button reset */
 button{ font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif; border: none; }
@@ -32,25 +33,34 @@ input{ font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, He
 select{ font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif; }
 
 
-
-/* $共用
---------------------------------------------------------------------------------------*/
-
-.container{
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 0;
-  margin-top: 80px;
-}
-
+h1{ font-size: 4em;}
+h2{ font-size: 3.2em;}
+h3{ font-size: 2.4em;}
+h4{ font-size: 2em;}
+h5{ font-size: 1.6em;}
+h6{ font-size: 1.2em;}
+p{ font-size: 0.8em;}
+ul{ list-style: none; margin: 0; padding: 0;}
+a{ text-decoration: none;}
 /* 連結動態變化 */
 a{ transition: ease-in 0.2s;}
 a:hover{ color: #fdd000;}
 /* end 連結動態變化 */
 
+.web-hidden{ display: none; opacity: 0; visibility: hidden; }
 
+/*-----------------------*\
+          Layout
+\*-----------------------*/
 
+.wrapper{ height:100%;}
+.container{ width: 100%; max-width: 1200px; margin: 0 auto; padding: 40px 0;}\
+.row{ display: flex; justify-content: space-between;}
+
+.col-2,.col-3,.col-4{ position: relative; display: inline-block; box-sizing: border-box; margin: 40px 0;}
+.col-2{ width: calc(100%/2 - 24px);}
+.col-3{ width: calc(100%/3 - 24px);}
+.col-4{ width: calc(100%/4 - 24px);}
 
 /* $Pc
 --------------------------------------------------------------------------------------*/
@@ -149,15 +159,6 @@ nav ul li:first-child a{
   width: 100%;
   box-sizing: border-box; 
 }
-
-.col-2{
-  position: relative;
-  display: inline-block;
-  width: calc(100%/2 - 16px);
-  box-sizing: border-box; 
-  margin: 40px 0;
-}
-
 /* ------------end 列表頁共用------------ */
 
 
@@ -180,12 +181,11 @@ nav ul li:first-child a{
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width:1024px){
 
-html,body{ width: 100%; font-size: 16px; -webkit-text-size-adjust:none; }
-.container{
-  width: auto;
-  padding:0 16px;
-}
+.mobile-hidden{ display: none; opacity: 0; visibility: hidden; }
+.web-hidden{ display: block; opacity: 1; visibility: visible; }
 
+html,body{ width: 100%; font-size: 16px; -webkit-text-size-adjust:none; }
+.container{ width: auto; padding:0 16px;}
 
 
 /*----------*\
