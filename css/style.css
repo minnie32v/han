@@ -183,10 +183,29 @@ nav ul li:first-child a{
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:769px) and (max-width:1365px){
 
+
+
+
+/*-----------------------*\
+          Layout
+\*-----------------------*/
+
+.container{ padding: 80px 16px;}
+.row{ flex-wrap: wrap;}
+.col-2,.col-3,.col-4{ width: 100%;}
+
+/*-----------------------*\
+        end  Layout
+\*-----------------------*/
+/*----------*\
+    header
+\*----------*/
 .logo{font-size: 1.4em;}
 nav ul li a{font-size: 1.4em;}
 
-
+/*----------*\
+  end header
+\*----------*/
 
 
 
