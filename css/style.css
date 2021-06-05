@@ -221,7 +221,7 @@ nav ul li a{font-size: 1.4em;}
 
 html,body{ width: 100%; font-size: 16px; -webkit-text-size-adjust:none; }
 .container{ width: auto; padding:0 16px;}
-
+/* .col-2, .col-3, .col-4{margin: 24px 0;} */
 
 /*----------*\
     header

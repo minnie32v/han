@@ -225,35 +225,40 @@ figure.effect-layla:hover img {
   transition-delay: 0.15s;
 }
 
+/* $Pad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:1024px) and (max-width:1365px){
+
+
+}
 
 
 /* $Mobile
 --------------------------------------------------------------------------------------*/
-@media screen and (max-width:1024px){
+@media screen and (max-width:1023px){
 
 
+figure.effect-sadie h2 {
+  font-size: 0.8em;
+  -webkit-transform: translate3d(0,-50%,0);
+  transform: translate3d(0,-50%,0);
+}
+figure.effect-sadie p{
+  color: #484848;
+  opacity: 1;  
+   -webkit-transform: translate3d(0,65px,0);
+  transform: translate3d(0,65px,0);
+}
+figure p{
+  font-size: 0.6em;
+}
+figure.effect-sadie:hover figcaption::before, figure.effect-sadie:hover p{
+  color: #fff;
+}
 
 
 }
 
-
-/* $Pad
---------------------------------------------------------------------------------------*/
-@media screen and (min-width:600px) and (max-width:1024px){
-
-
-
-}
-
-
-
-
-
-/* $橫的版型 */
-@media screen and (orientation:landscape){ 
-
-
-}
 
 
 
