@@ -1,5 +1,22 @@
 
-
+.kv-bg{
+    width: 100%;
+    padding-top: 33%;
+    background: url('../images/web/openpoint/bg_opappintro.jpg') no-repeat top center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    position: relative;
+}
+.kv-mk{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.kv-mk img{
+    width: 100%;
+    margin: 0 auto;
+}
 
 /* $Mobile
 --------------------------------------------------------------------------------------*/
