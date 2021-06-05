@@ -232,7 +232,7 @@ h6{ font-size: 1em;}
 p{ font-size: 0.8em;}
 .container{ width: auto; padding:0 16px;}
 .row{flex-wrap: wrap;}
-.col-2,.col-3,.col-4{ width: 100%;margin: 0;}
+.col-2,.col-3,.col-4{ width: 100%;}
 
 /*----------*\
     header
@@ -377,10 +377,6 @@ nav{
   width: 100%;
 }
 /* ---------- end kv ---------- */
-
-.col-2{
-  width: 100%;
-}
 
 
 /*----------*\
