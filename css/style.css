@@ -181,7 +181,7 @@ nav ul li:first-child a{
 
 /* $Pad
 --------------------------------------------------------------------------------------*/
-@media screen and (min-width:769px) and (max-width:1365px){
+@media screen and (min-width:1024px) and (max-width:1365px){
 
 
 
@@ -190,9 +190,6 @@ nav ul li:first-child a{
           Layout
 \*-----------------------*/
 
-.container{ padding: 80px 16px;}
-.row{ flex-wrap: wrap;}
-.col-2,.col-3,.col-4{ width: 100%;}
 
 /*-----------------------*\
         end  Layout
@@ -215,7 +212,7 @@ nav ul li a{font-size: 1.4em;}
 
 /* $Mobile
 --------------------------------------------------------------------------------------*/
-@media screen and (max-width:768px){
+@media screen and (max-width:1023px){
 
 .mobile-hidden{ display: none; opacity: 0; visibility: hidden; }
 .web-hidden{ display: block; opacity: 1; visibility: visible; }
