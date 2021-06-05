@@ -95,7 +95,7 @@
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1025px){
 .tab{
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     margin: 0 auto;
 }
