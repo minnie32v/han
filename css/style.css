@@ -114,6 +114,7 @@ nav ul li a{
   border-left:1px solid #888; 
   color: #484848;
   padding: 8px 0;
+  font-size: 1.6em;
 }
 nav ul li:first-child a{
   border-left:0;
