@@ -277,6 +277,11 @@ nav{
   background:rgba(0,0,0,0.8);
   margin-top: 64px; 
 }
+hr {
+    border: 1px solid #888;
+    margin: 12px auto;
+    width: 300px;
+  }
 .mainMenu{ 
   min-height: 100%; 
   display:flex; 
@@ -297,7 +302,6 @@ nav{
   margin: 0 auto;
   font-weight: 900;
   padding: 24px;
-  /* border-bottom: 1px solid #000; */
   border-left: 0;
   font-size: 1em;
 } 
@@ -322,7 +326,7 @@ nav{
 .navToggle span ,.navToggle span:before ,.navToggle span:after{ 
   display:block; 
   width:100%; 
-  background:#000; 
+  background:#484848; 
   height:2px; 
   border-radius:2px; 
 }
