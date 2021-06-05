@@ -189,7 +189,7 @@ nav ul li:first-child a{
 /*-----------------------*\
           Layout
 \*-----------------------*/
-
+.container{max-width: 800px;}
 
 /*-----------------------*\
         end  Layout
@@ -197,6 +197,8 @@ nav ul li:first-child a{
 /*----------*\
     header
 \*----------*/
+.header-container{ max-width: 800px;}
+
 .logo{font-size: 1.4em;}
 nav ul li a{font-size: 1.4em;}
 
