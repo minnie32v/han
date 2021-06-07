@@ -31,8 +31,8 @@
 .link a{
 	position: relative;
 	display: inline-block;
-	border: 2px solid #FF369A;
-	color:#FF369A;
+	border: 2px solid #CF7FFA;
+	color:#CF7FFA;
 	padding: 15px 30px;
 }
 
@@ -108,6 +108,60 @@
 @media screen and (max-width:1023px){
 
 
+.kv-bg{
+    width: 100%;
+    padding-top: 56%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.kv-mk{
+    width: 80%;
+}
+
+.intro-bg{
+	padding: 24px 0;
+}
+.circle{
+	max-width: 28px;
+    height: 28px;
+	border-radius: 50px;
+	padding: 28px;
+}
+
+
+.pic .col-4{
+	width: calc(100%/2 - 24px);
+}
+
+
+.link{
+	text-align: center;
+	font-size: 1em;
+	
+}
+.link a{
+	padding: 8px 16px;
+}
+.link a:before{
+	content: '';
+	display: none;
+}
+.link a:hover:before{
+	content: '';
+	display: none;
+}
+
+
+.link a:after{
+	content: '';
+	display: none;
+}
+.link a:hover:after{
+	content: '';
+	display: none;
+}
 
 
 }
