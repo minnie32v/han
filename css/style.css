@@ -115,19 +115,13 @@ nav ul li a{
   color: #484848;
   padding: 8px 0;
   font-size: 1.6em;
-  transition: ease-in 0.2s;
+  transition: ease-in-out 0.5s;
 }
-nav ul li a:hover:before{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 4px;
-  height: 4px;
-  background-color: #484848;
-  border-radius: 50px;
+nav ul li a:hover{
   
 }
+
+
 nav ul li:first-child a{
   border-left:0;
 }
