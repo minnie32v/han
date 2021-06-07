@@ -225,7 +225,7 @@ figure.effect-layla:hover img {
   transition-delay: 0.15s;
 }
 
-/* $Pad
+/* $iPad pro
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) and (max-width:1365px){
 
@@ -233,9 +233,16 @@ figure.effect-layla:hover img {
 }
 
 
+/* $iPad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+}
+
+
 /* $Mobile
 --------------------------------------------------------------------------------------*/
-@media screen and (max-width:1023px){
+@media screen and (max-width:767px){
 
 
 figure.effect-sadie h2 {
