@@ -173,6 +173,10 @@ hr{
   width: 100%;
   box-sizing: border-box; 
 }
+.list-content .col-2{
+  padding: 40px 0;
+
+}
 /* ------------end 列表頁共用------------ */
 
 
