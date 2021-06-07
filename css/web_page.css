@@ -77,7 +77,17 @@
 /* $Pad
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) and (max-width:1365px){
+.kv-bg{
+    width: 100%;
+    padding-top: 56%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
 
+.kv-mk{
+    width: 80%;
+}
 .circle{
 	max-width: 32px;
     height: 32px;
