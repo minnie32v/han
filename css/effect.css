@@ -230,6 +230,10 @@ figure.effect-layla:hover img {
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) and (max-width:1365px){
 
+figure h2 {
+  font-size: 1.6em;
+}
+
 
 }
 
@@ -237,6 +241,10 @@ figure.effect-layla:hover img {
 /* $iPad
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:768px) and (max-width:1023px){
+
+figure h2 {
+  font-size: 1.2em;
+}
 
 }
 
@@ -256,6 +264,9 @@ figure.effect-sadie p{
   opacity: 1;  
    -webkit-transform: translate3d(0,65px,0);
   transform: translate3d(0,65px,0);
+}
+figure h2 {
+  font-size: 1em;
 }
 figure p{
   font-size: 0.6em;
