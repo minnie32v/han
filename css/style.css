@@ -42,10 +42,7 @@ h4{ font-size: 2.4em; padding-bottom:16px;}
 p{ font-size: 1.6em;}
 ul{ list-style: none; margin: 0; padding: 0;}
 a{ text-decoration: none;}
-/* 連結動態變化 */
-a{ transition: ease-in 0.2s;}
-a:hover{ color: #fdd000;}
-/* end 連結動態變化 */
+
 
 .web-hidden{ display: none; opacity: 0; visibility: hidden; }
 
@@ -112,11 +109,24 @@ nav ul li{
   align-items: center;
 }
 nav ul li a{
+  position: relative;
   text-align: center; 
   width: 100%; 
   color: #484848;
   padding: 8px 0;
   font-size: 1.6em;
+  transition: ease-in 0.2s;
+}
+nav ul li a:hover:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background-color: #484848;
+  border-radius: 50px;
+  
 }
 nav ul li:first-child a{
   border-left:0;
