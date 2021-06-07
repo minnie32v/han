@@ -178,8 +178,9 @@ hr{
 
 .copyright{
   text-align: center;
-  font-size: 14px;
+  font-size: 1em;
   padding: 16px 0;
+  color: #fff;
 }
 
 /*----------*\
