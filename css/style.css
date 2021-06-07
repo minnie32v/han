@@ -235,7 +235,7 @@ nav ul li a{font-size: 1.4em;}
 /*-----------------------*\
           Layout
 \*-----------------------*/
-.container{max-width: 700px; padding: 40px 0;}
+.container{max-width: 700px; padding: 80px 0;}
 .content{padding: 24px 0;}
 .row{flex-wrap: wrap;}
 .col-2,.col-3,.col-4{ width: 100%; padding: 16px 0;}
@@ -246,7 +246,7 @@ nav ul li a{font-size: 1.4em;}
 /*----------*\
     header
 \*----------*/
-.header-container{ max-width: 800px;}
+.header-container{ max-width: 700px;}
 
 .logo{font-size: 1.4em;}
 nav ul li a{font-size: 1.4em;}
