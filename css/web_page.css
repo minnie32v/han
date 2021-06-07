@@ -1,3 +1,4 @@
+/* ---------- page kv ---------- */
 .kv-bg{
     width: 100%;
     padding-top: 33%;
@@ -15,7 +16,10 @@
     width: 100%;
     margin: 0 auto;
 }
+/* ---------- end page kv ---------- */
 
+
+/* ---------- 色彩規範 ---------- */
 .row-color{ 
 	display: flex; 
 	justify-content: center; 
@@ -27,7 +31,26 @@
 	padding: 50px;
 	margin: 8px;
 }
+/* ---------- end 色彩規範 ---------- */
 
+/* ---------- web page排版共用 ---------- */
+.text-center{
+	text-align: center;
+}
+.row-reverse{
+	flex-direction: row-reverse;
+}
+.pic-png{
+	filter:drop-shadow(2px 2px 2px  rgba(0,0,0,0.2));
+}
+.pic-jpg{
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+	border-radius: 8px;
+}
+
+/* ---------- end web page排版共用 ---------- */
+
+/* ---------- 連結網站 ---------- */
 .link{
 	text-align: center;
 	font-size: 2.4em;
@@ -36,8 +59,6 @@
 .link a{
 	position: relative;
 	display: inline-block;
-	border: 2px solid #CF7FFA;
-	color:#CF7FFA;
 	padding: 15px 30px;
 }
 
@@ -48,7 +69,6 @@
 	left: -2px;
 	width: calc(100% + 4px);
 	height: calc(100% - 12px);
-	background-color: #fff;
 	transition: all .5s ease-in-out;
 	transform: 0.5s ease-in-out;
 	transform: scaleY(1);
@@ -66,7 +86,6 @@
 	top: -2px;
 	height: calc(100% + 4px);
 	width: calc(100% - 12px);
-	background-color: #fff;
 	transition: all .5s ease-in-out;
 	transform: 0.5s ease-in-out;
 	transform: scaleX(1);
@@ -77,11 +96,13 @@
 
 .link a span{position: relative; z-index: 1;}
 
-
+/* ---------- end 連結網站 ---------- */
 
 /* $iPad pro
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) and (max-width:1365px){
+
+/* ---------- page kv ---------- */
 .kv-bg{
     width: 100%;
     padding-top: 56%;
@@ -93,6 +114,10 @@
 .kv-mk{
     width: 80%;
 }
+
+/* ---------- end page kv ---------- */
+
+/* ---------- 色彩規範 ---------- */
 .circle{
 	max-width: 32px;
     height: 32px;
@@ -100,6 +125,7 @@
 	padding: 32px;
 	margin: 4px;
 }
+/* ---------- end 色彩規範 ---------- */
 
 
 
@@ -109,6 +135,8 @@
 /* $iPad
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:768px) and (max-width:1023px){
+
+/* ---------- page kv ---------- */
 .kv-bg{
     width: 100%;
     padding-top: 56%;
@@ -120,6 +148,11 @@
 .kv-mk{
     width: 80%;
 }
+
+/* ---------- end page kv ---------- */
+
+
+/* ---------- 色彩規範 ---------- */
 .circle{
 	max-width: 28px;
     height: 28px;
@@ -127,10 +160,16 @@
 	padding: 28px;
 	margin: 4px;
 }
+/* ---------- end 色彩規範 ---------- */
 
+
+/* ---------- web page排版共用 ---------- */
 .pic .col-4{
 	width: calc(100%/2 - 24px);
 }
+/* ---------- end web page排版共用 ---------- */
+
+
 
 }
 
@@ -139,7 +178,7 @@
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width:767px){
 
-
+/* ---------- page kv ---------- */
 .kv-bg{
     width: 100%;
     padding-top: 56%;
@@ -152,9 +191,14 @@
     width: 80%;
 }
 
-.intro-bg{
+.intro{
 	padding: 24px 0;
 }
+
+/* ---------- end page kv ---------- */
+
+
+/* ---------- 色彩規範 ---------- */
 .circle{
 	max-width: 28px;
     height: 28px;
@@ -163,11 +207,16 @@
 	margin: 4px;
 }
 
+/* ---------- end 色彩規範 ---------- */
 
+
+/* ---------- web page排版共用 ---------- */
 .pic .col-4{
 	width: calc(100%/2 - 24px);
 }
+/* ---------- end web page排版共用 ---------- */
 
+/* ---------- 連結網站 ---------- */
 
 .link{
 	text-align: center;
@@ -195,6 +244,8 @@
 	content: '';
 	display: none;
 }
+
+/* ---------- end 連結網站 ---------- */
 
 
 }
