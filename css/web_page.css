@@ -2,8 +2,6 @@
 .kv-bg{
     width: 100%;
     padding-top: 33%;
-    -webkit-background-size: contain;
-    background-size: contain;
     position: relative;
 }
 .kv-mk{
