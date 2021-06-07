@@ -1,8 +1,6 @@
-
 .kv-bg{
     width: 100%;
     padding-top: 33%;
-    /* background: url('../images/web/openpoint/bg_opappintro.jpg') no-repeat top center; */
     -webkit-background-size: contain;
     background-size: contain;
     position: relative;
@@ -16,9 +14,6 @@
 .kv-mk img{
     width: 100%;
     margin: 0 auto;
-}
-.intro-bg{
-	/* padding: 40px; */
 }
 
 .circle{
@@ -77,10 +72,18 @@
 
 .link a span{position: relative; z-index: 1;}
 
-/* $Mobile
---------------------------------------------------------------------------------------*/
-@media screen and (max-width:1024px){
 
+
+/* $Pad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:1024px) and (max-width:1365px){
+
+.circle{
+	max-width: 32px;
+    height: 32px;
+	border-radius: 50px;
+	padding: 32px;
+}
 
 
 
@@ -88,9 +91,12 @@
 }
 
 
-/* $Pad
+
+
+/* $Mobile
 --------------------------------------------------------------------------------------*/
-@media screen and (min-width:600px) and (max-width:1024px){
+@media screen and (max-width:1023px){
+
 
 
 

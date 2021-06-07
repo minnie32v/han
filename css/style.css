@@ -50,7 +50,6 @@ a{ text-decoration: none;}
           Layout
 \*-----------------------*/
 
-/* .wrapper{ height:100%;} */
 .container{ width: 100%; max-width: 1200px; margin: 0 auto; padding: 80px 0;}
 .row{ display: flex; justify-content: space-between; }
 
@@ -196,9 +195,6 @@ hr{
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) and (max-width:1365px){
 
-
-
-
 /*-----------------------*\
           Layout
 \*-----------------------*/
@@ -243,6 +239,7 @@ h4{ font-size: 1.4em;}
 h5{ font-size: 1.2em;}
 h6{ font-size: 1em;}
 p{ font-size: 0.8em;}
+
 .container{ width: auto; padding:0 16px;}
 .row{flex-wrap: wrap;}
 .col-2,.col-3,.col-4{ width: 100%;}
