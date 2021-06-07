@@ -179,7 +179,7 @@ hr{
 /*----------*\
     footer
 \*----------*/
-
+footer{ background-color: #484848;}
 .copyright{
   text-align: center;
   font-size: 1em;

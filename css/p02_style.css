@@ -461,7 +461,7 @@
 	/*寬度撐開 按鈕才不會擠在一起*/
 	width: 100%;
 	/*運算 106px = 標題+內文  20px = 按鈕一半的高度*/
-	top: calc((100% - 106px) / 2 - 20px);
+	top: calc(100%/2 - 40px);
 }
 .owl-theme .owl-nav button.owl-prev,
 .owl-theme .owl-nav button.owl-next{
