@@ -112,7 +112,7 @@ nav ul li a{
   position: relative;
   text-align: center; 
   width: 100%; 
-  color: #484848;
+  color: #707070;
   padding: 8px 0;
   font-size: 1.6em;
   transition: ease-in-out 0.5s;
@@ -127,7 +127,7 @@ nav ul li:first-child a{
 }
 
 hr{
-  border-left:1px solid #484848;
+  border-left:1px solid #707070;
   border-top: 0;
   margin: auto;
   height: 24px;
@@ -183,7 +183,7 @@ hr{
 /*----------*\
     footer
 \*----------*/
-footer{ background-color: #484848;}
+footer{ background-color: #707070;}
 .copyright{
   text-align: center;
   font-size: 1em;
@@ -321,7 +321,7 @@ nav{
   margin-top: 64px; 
 }
 hr {
-    border-top:1px solid #484848;
+    border-top:1px solid #707070;
     border-left: 0;
     margin: 8px auto;
     width: 320px;
@@ -371,7 +371,7 @@ hr {
 .navToggle span ,.navToggle span:before ,.navToggle span:after{ 
   display:block; 
   width:100%; 
-  background:#484848; 
+  background: #707070; 
   height:2px; 
   border-radius:2px; 
 }
