@@ -21,7 +21,7 @@ img{width: 100%;height: auto;}
 :before ,:after{ font-family:'Font Awesome 5 Free','Linearicons-Free',"微軟正黑體";}
 
 /* body,html */
-html,body{position: relative; width: 100%; height: 100%; font-size:10px; letter-spacing: 1px; line-height: 1.5; color: #484848; font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif; text-align: justify; }
+html,body{position: relative; width: 100%; height: 100%; font-size:10px; letter-spacing: 1px; line-height: 1.5; color: #707070; font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif; text-align: justify; }
 
 /* button reset */
 button{ font-family:"微軟正黑體","新細明體","蘋果儷黑體", Arial, Helvetica, sans-serif; border: none; }
