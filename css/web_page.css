@@ -35,8 +35,26 @@
 .text-center{
 	text-align: center;
 }
+.num-bold{
+	font-weight:bold;
+	font-size:1.4em;
+}
+.num-circle{
+	max-width: 280px;
+	width: 100%;
+    height: 280px;
+	border-radius: 280px;
+	margin: 8px;
+	padding: 60px 0;
+}
+
 .row-reverse{
 	flex-direction: row-reverse;
+}
+
+.row-center{ 
+	display: flex; 
+	justify-content: center;
 }
 .pic-png{
 	filter:drop-shadow(2px 2px 2px  rgba(0,0,0,0.2));
@@ -125,6 +143,14 @@
 }
 /* ---------- end 色彩規範 ---------- */
 
+.num-circle{
+	max-width: 280px;
+	width: 100%;
+    height: 280px;
+	border-radius: 280px;
+	margin: 8px;
+	padding: 56px 0;
+}
 
 
 
@@ -162,9 +188,15 @@
 
 
 /* ---------- web page排版共用 ---------- */
+.row-center{ flex-wrap: wrap;}
+.pic .col-2{
+	width: calc(100%/2 - 4px);
+}
+
 .pic .col-4{
 	width: calc(100%/2 - 24px);
 }
+
 /* ---------- end web page排版共用 ---------- */
 
 
@@ -204,11 +236,24 @@
 	padding: 28px;
 	margin: 4px;
 }
-
+.num-circle{
+	max-width: 200px;
+	width: 100%;
+    height: 200px;
+	border-radius: 200px;
+	margin: 8px;
+	padding: 44px 0;
+}
 /* ---------- end 色彩規範 ---------- */
 
 
 /* ---------- web page排版共用 ---------- */
+
+.row-center{ flex-wrap: wrap;}
+
+.pic .col-2{
+	width: calc(100%/2 - 4px);
+}
 .pic .col-4{
 	width: calc(100%/2 - 24px);
 }
