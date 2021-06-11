@@ -1,0 +1,92 @@
+.accordion {
+  border: 1px solid #C0C966;
+  margin: 40px 0;
+}
+.accordion__header {
+  width: 100%;
+  background-color: #fff;
+  color: #C0C966;
+  font-size: 1.6em;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  cursor: s-resize;
+  position: relative;
+  padding: 16px 0 16px 16px;
+  border-top: 1px solid #C0C966;
+}
+.accordion__header:after {
+  display: none;
+  content: "+";
+  transform-origin: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #C0C966;
+  padding:0 16px;
+  margin-right: 0;
+  margin-left: auto;
+  transition: transform 200ms ease-out;
+}
+.q-num{
+  font-size: 2em;
+  font-weight: bold;
+  padding-right: 8px;
+}
+.accordion__item{
+  position: relative;
+  overflow: hidden;
+}
+.accordion__item:hover .accordion__header {
+  color: #C0C966;
+}
+.accordion__item:first-child .accordion__header {
+  border-top: none;
+}
+.accordion__content {  
+  font-size: 1.6em;
+  padding: 0px 20px;
+  height: 0px;
+  background-color: #FFFBF0;
+  color: #707070;
+  overflow: hidden;
+  transition: padding 200ms ease-in-out;
+}
+.accordion input[type=radio],
+.accordion input[type=checkbox] {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  border: 0px;
+  z-index: 999;
+}
+.accordion input[type=radio][hidden=hidden],
+.accordion input[type=checkbox][hidden=hidden] {
+  visiblity: hidden;
+  top: -100%;
+}
+.accordion input[type=radio][hidden=hidden] + .accordion__header:after,
+.accordion input[type=checkbox][hidden=hidden] + .accordion__header:after {
+  display: block;
+
+}
+.accordion input[type=radio]:focus,
+.accordion input[type=checkbox]:focus {
+  outline: none;
+}
+.accordion input[type=radio]:checked ~ .accordion__content,
+.accordion input[type=checkbox]:checked ~ .accordion__content {
+  padding: 16px;
+  height: auto;
+}
+.accordion input[type=radio]:checked + .accordion__header,
+.accordion input[type=checkbox]:checked + .accordion__header {
+  color: #C0C966;
+}
+.accordion input[type=radio]:checked + .accordion__header:after,
+.accordion input[type=checkbox]:checked + .accordion__header:after {
+  transform: rotate(-45deg);
+  font-size: 2em;
+  font-weight: bold;
+}
