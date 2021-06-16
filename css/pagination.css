@@ -109,7 +109,7 @@
 }
 
 .category{
-    width: calc(100%/3 - 8px);
+    width: calc(100%/2 - 8px);
     margin: 4px;
     font-size: 1em;
 }
