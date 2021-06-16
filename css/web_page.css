@@ -32,9 +32,7 @@
 /* ---------- end 色彩規範 ---------- */
 
 /* ---------- web page排版共用 ---------- */
-.text-center{
-	text-align: center;
-}
+
 .num-bold{
 	font-weight:bold;
 	font-size:1.4em;

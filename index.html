@@ -28,57 +28,143 @@
 		
 	</head>
 	<body>
-		<header></header>
-		<!-- kv -->
-		<div class="kv-bg">
-			<div class="kv-container">
-				<!-- <div class="kv-slick">
-					<picture>
-						<source media="(min-width:768px)" srcset="images/kv1.png" />
-						<source srcset="images/kv1-m.png">
-						<img src="images/kv1-m.png" alt="">
-					</picture>
-					<picture>
-						<source media="(min-width:768px)" srcset="images/kv2.png" />
-						<source srcset="images/kv2-m.png">
-						<img src="images/kv2-m.png" alt="">
-					</picture>
-					
-				</div> -->
+	<header></header>
+	<!-- kv -->
+	<div class="kv-bg">
+		<div class="kv-container">
+			<div class="kv-slick">
+				<picture>
+					<source media="(min-width:768px)" srcset="images/kv1.png" />
+					<source srcset="images/kv1-m.png">
+					<img src="images/kv1-m.png" alt="">
+				</picture>
+				<picture>
+					<source media="(min-width:768px)" srcset="images/kv2.png" />
+					<source srcset="images/kv2-m.png">
+					<img src="images/kv2-m.png" alt="">
+				</picture>
+				
 			</div>
 		</div>
-		<!-- end kv -->
-		
-		<!-- 內容 -->
-		<section class="container">
-			
-			
-		</section>
-		<!-- end 內容 -->
-		
-		<footer></footer>
-	</body>
-	<script>
-	// JavaScript Document
-	$(document).ready(function(){
-		// slick輪播
-		$('.kv-slick').slick({
-			dots: true,
-			arrows:true,
-			infinite: true,
-			autoplaySpeed: 3000,
-			autoplay:true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			responsive: [
-		{
-		breakpoint: 768,
-		settings: {
-		arrows: false
-		}
-		}
-		]
-		});
+	</div>
+	<!-- end kv -->
+	
+	<!-- 內容 -->
+	<section class="container text-center">
+		<h2>精選作品</h2>
+		<!-- web作品 -->		
+		<div class="">
+			<h4>網頁設計</h4>
+			<div class="web-slick">
+				<img src="images/web/cycling/cycling.jpg" alt="">
+				<img src="images/web/20mobile/20mobile.jpg" alt="">
+				<img src="images/web/openpoint.jpg" alt="">
+				<img src="images/web/firstsuper/firstsuper.jpg" alt="">
+				<img src="images/web/coldbrew.jpg" alt="">
+			</div>
+		</div>
+		<!-- end web作品 -->		
+		<!-- app作品 -->		
+		<div class="">
+			<h4>APP設計</h4>
+			<div class="app-slick">
+				<img src="images/web/cycling/cycling.jpg" alt="">
+				<img src="images/web/20mobile/20mobile.jpg" alt="">
+				<img src="images/web/openpoint.jpg" alt="">
+				<img src="images/web/firstsuper/firstsuper.jpg" alt="">
+				<img src="images/web/coldbrew.jpg" alt="">
+			</div>
+		</div>
+		<!-- end app作品 -->		
+		<!-- visual作品 -->		
+		<div class="">
+			<h4>平面設計</h4>
+			<div class="visual-slick">
+				<img src="images/P04/pic-gochui.jpg" alt="">
+				<img src="images/P01/pic-card.jpg" alt="">
+				<img src="images/P02/pic-p02.jpg" alt="">
+				<img src="images/P05/pic-marry.jpg" alt="">
+				<img src="images/P03/pic-p03.jpg" alt="">
+			</div>
+		</div>
+		<!-- end visual作品 -->		
+	</section>
+	<!-- end 內容 -->
+	
+<footer></footer>
+</body>
+<script>
+// JavaScript Document
+$(document).ready(function(){
+	// slick輪播
+	$('.kv-slick').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		autoplaySpeed: 3000,
+		autoplay:true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [
+	{
+	breakpoint: 768,
+	settings: {
+	arrows: false
+	}
+	}
+	]
 	});
-	</script>
+	$('.web-slick').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		autoplaySpeed: 3000,
+		autoplay:true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+	{
+	breakpoint: 768,
+	settings: {
+	arrows: false
+	}
+	}
+	]
+	});
+	$('.app-slick').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		autoplaySpeed: 3000,
+		autoplay:true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+	{
+	breakpoint: 768,
+	settings: {
+	arrows: false
+	}
+	}
+	]
+	});
+	$('.visual-slick').slick({
+		dots: true,
+		arrows:true,
+		infinite: true,
+		autoplaySpeed: 3000,
+		autoplay:true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+	{
+	breakpoint: 768,
+	settings: {
+	arrows: false
+	}
+	}
+	]
+	});
+});
+</script>
 </html>
