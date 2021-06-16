@@ -113,13 +113,14 @@ nav ul li a{
   position: relative;
   text-align: center; 
   width: 100%; 
-  color: #eee;
+  color: #707070;
   padding: 8px 0;
   font-size: 1.6em;
   transition: ease-in-out 0.5s;
 }
-nav ul li a:hover{
-  color: #707070;
+nav ul li a:hover:after{
+  color:#fff;
+  background-color: #707070;
 }
 
 
