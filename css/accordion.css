@@ -93,31 +93,28 @@
 
 
 
-/* $iPad pro
---------------------------------------------------------------------------------------*/
-@media screen and (min-width:1024px) and (max-width:1365px){
-
-
-
-}
-
-
-
-/* $iPad
---------------------------------------------------------------------------------------*/
-@media screen and (min-width:768px) and (max-width:1023px){
-
-
-
-
-}
-
 
 /* $Mobile
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width:767px){
+  .accordion{
+    margin: 16px 0;
+  }
+  .accordion__header {
+    font-size: 1em;
+    padding: 8px 0 8px 8px;
+  }
+  .accordion__header:after {
+    font-size: 1em;
+    padding:0 8px;
+  }
+  .accordion__content{
+    font-size: .8em;
+  }
 
-
+  .q-num{
+    font-size: 1.6em;
+  }
 
 
 
