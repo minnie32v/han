@@ -168,6 +168,9 @@
 	.main .jumbotron{
 		padding-top: 100px;
 	}
+	.jumbotron.web-hidden{
+		margin-top: 80px;
+	}
 }
 
 /*menu*/

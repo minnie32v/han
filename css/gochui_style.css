@@ -168,6 +168,9 @@
 	.main .jumbotron{
 		padding-top: 100px;
 	}
+	.jumbotron.web-hidden{
+		margin-top: 80px;
+	}
 }
 
 
@@ -183,6 +186,7 @@
 }
 
 @media (max-width: 1024px) {
+	
 	.menu .menu-item {
 	padding: 0 16px;
 	margin-top: 8px;
