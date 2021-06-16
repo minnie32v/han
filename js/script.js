@@ -28,7 +28,7 @@ $(function(){
 			}, 300);
 		});
 	});
-})(window);
+});
 // header共用
 $(function(){
 	//header
