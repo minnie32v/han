@@ -118,7 +118,8 @@ nav ul li a{
   font-size: 1.6em;
   transition: ease-in-out 0.5s;
 }
-nav ul li a:after:hover{
+nav ul li a:hover:after{
+  content: '';
   color:#fff;
   background-color: #707070;
 }
