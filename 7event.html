@@ -29,7 +29,7 @@
 		.kv-bg{
 			background: url('images/web/711event/bg_7event.jpg') no-repeat bottom center;
 			-webkit-background-size: cover;
-		background-size: cover;
+			background-size: cover;
 		}
 		.bg-color{background-color: #FFFBF0;}
 		.color1{color: #C79C58;}
@@ -42,17 +42,25 @@
 		.bg-color4{background-color: #EEEEEE;}
 		.bg-color5{background-color: #FFF;border: 1px solid #707070;}
 		.num-circle{border: 1px solid #C79C58;}
-		/* $iPad pro
-		----------------------------------------------------------------*/
-		@media screen and (max-width:767px){
-			.green-pic{width: 120px; margin: 24px 0;}
-		}
-		table{width: 800px; margin:0 auto 24px auto; border-spacing: 0;border-left: 1px solid #C0C966;border-top: 1px solid #C0C966;}
+		table{max-width: 800px; width: 100%; margin:0 auto 24px auto; border-spacing: 0;border-left: 1px solid #C0C966;border-top: 1px solid #C0C966;}
 		td{border-bottom: 1px solid #C0C966; border-right: 1px solid #C0C966;padding: 4px;font-size: 2em;}
 		.link a{border: 2px solid #C79C58;	color:#C79C58;}
 		.link a:before{background-color: #fff;}
 		.link a:after{background-color: #fff;}
 		footer{ background-color: #C79C58;}
+		
+		/* $iPad
+		--------------------------------------------------------------------------------------*/
+		@media screen and (min-width:768px) and (max-width:1023px){
+			table{max-width:700px; width: 100%; }
+		}
+		/* $Mobile
+		--------------------------------------------------------------------------------------*/
+		@media screen and (max-width:767px){
+		.green-pic{width: 120px; margin: 24px 0;}
+		table{max-width:600px; width: 100%; }
+		td{padding: 2px; font-size: .6em;}
+		}
 		</style>
 		<!-- end 此頁用 -->
 	</head>
@@ -138,30 +146,32 @@
 	<!-- end 色彩規範 -->
 	<!-- 執行困難&解決辦法 -->
 	<div class="container" data-aos="fade-up" data-aos-duration="1500">
-		<h3 class="color1 text-center">執行困難&解決辦法</h3>
-		<div class="accordion">
-			<div class="accordion__item">
-				<input id="accordionc1" checked="true" type="checkbox" name="accordionc" hidden="hidden"/>
-				<label class="accordion__header" for="accordionc1"><span class="q-num">Q1</span>檔期時程接近，加上客戶公司審核需經過層層關卡(包含授權商審核)，製作時間非常緊縮。</label>
-				<div class="accordion__content">統整歷年活動資訊，製作專屬集點活動的公版網站，以便每檔製作及維護。</div>
+		<div class="content">
+			<h3 class="color1 text-center">執行困難&解決辦法</h3>
+			<div class="accordion">
+				<div class="accordion__item">
+					<input id="accordionc1" checked="true" type="checkbox" name="accordionc" hidden="hidden"/>
+					<label class="accordion__header" for="accordionc1"><span class="q-num">Q1</span>檔期時程接近，加上客戶公司審核需經過層層關卡(包含授權商審核)，製作時間非常緊縮。</label>
+					<div class="accordion__content">統整歷年活動資訊，製作專屬集點活動的公版網站，以便每檔製作及維護。</div>
+				</div>
 			</div>
-		</div>
-		<div class="accordion">
-			<div class="accordion__item">
-				<input id="accordionc2" hidden="hidden" type="checkbox" name="accordionc"/>
-				<label class="accordion__header" for="accordionc2"><span class="q-num">Q2</span>客戶希望能一目瞭然呈現所有的資訊，避免層級太多才能看到內容，造成消費者爭議，缺點是網頁會很冗長，尤其手機版更是。</label>
-				<div class="accordion__content">選單設定錨點，讓消費者可以直接到達想看的資訊。</div>
+			<div class="accordion">
+				<div class="accordion__item">
+					<input id="accordionc2" hidden="hidden" type="checkbox" name="accordionc"/>
+					<label class="accordion__header" for="accordionc2"><span class="q-num">Q2</span>客戶希望能一目瞭然呈現所有的資訊，避免層級太多才能看到內容，造成消費者爭議，缺點是網頁會很冗長，尤其手機版更是。</label>
+					<div class="accordion__content">選單設定錨點，讓消費者可以直接到達想看的資訊。</div>
+				</div>
 			</div>
-		</div>
-		<!-- end 執行困難&解決辦法 -->
-		<div class="content" data-aos="fade-up" data-aos-duration="1500">
-			<div class="text-center">
-				<p>歷時半年多，不斷與客戶討論進行修改、測試，2019年6月公版正式上線。<br>
-				以下附上最新活動檔期之網站(與主視覺合成之活動檔期不同)，僅供作品展示用，實際資訊以官方為主。</p>
-			</div>
-			<div class="content">
-				<div class="link">
-					<a href="https://www.7-11.com.tw/event/21snoopy/index.aspx" target="_blank"><span>VIEW WEBSITE</span></a>
+			<!-- end 執行困難&解決辦法 -->
+			<div class="content" data-aos="fade-up" data-aos-duration="1500">
+				<div class="text-center">
+					<p>歷時半年多，不斷與客戶討論進行修改、測試，2019年6月公版正式上線。<br>
+					以下附上最新活動檔期之網站(與主視覺合成之活動檔期不同)，僅供作品展示用，實際資訊以官方為主。</p>
+				</div>
+				<div class="content">
+					<div class="link">
+						<a href="https://www.7-11.com.tw/event/21snoopy/index.aspx" target="_blank"><span>VIEW WEBSITE</span></a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -205,36 +215,34 @@
 					<tbody>
 						<tr>
 							<td>每日平均參加人數<span class="color2 num-bold">1,100人</span></td>
-						
+							
 							<td>每檔平均總參加人數<span class="color2 num-bold">3萬人</span></td>
-						
+							
 						</tr>
 						<tr>
-							<td>每人平均登錄序號量<span class="color2 num-bold">3次</span></td>
-						
-							<td  rowspan="2">每檔平均總登錄序號量<span class="color2 num-bold">10萬次</span></td>
+							<td>每人平均登錄序號<span class="color2 num-bold">3次</span></td>
+							
+							<td  rowspan="2">每檔平均總登錄序號<span class="color2 num-bold">10萬次</span></td>
 						</tr>
 						<tr>
 							
-							<td>每日平均登錄序號量<span class="color2 num-bold">2,500次</span></td>
+							<td>每日平均登錄序號<span class="color2 num-bold">2,500次</span></td>
 						</tr>
-
 					</tbody>
 				</table>
-				<p>此次改版不僅達成客戶需求，也提升活動參與度及網頁流量<br>結合新活動進而增加社群人數、提高曝光率，日後網頁製作也更有效率，達成雙方檔期維護製作最佳成效。</p>
-				</div>
-			</div>
-
-			<div class="content text-center">
-				<p>連結僅供作品展示用，實際資訊以官方為主。</p>
-				<div class="link">
-					<a href="https://www.7-11.com.tw/rnluckydraw/about_0005.html" target="_blank"><span>VIEW EVENT</span></a>
-				</div>
+				<p>此次改版不僅達成客戶需求，也提升活動參與度及網頁流量，結合新活動進而增加社群人數、提高曝光率，日後網頁製作也更有效率，達成雙方檔期維護製作最佳成效。</p>
 			</div>
 		</div>
+		<div class="content text-center">
+			<p>連結僅供作品展示用，實際資訊以官方為主。</p>
+			<div class="link">
+				<a href="https://www.7-11.com.tw/rnluckydraw/about_0005.html" target="_blank"><span>VIEW EVENT</span></a>
+			</div>
 		</div>
-		<!-- end 活動成效 -->
-	<footer></footer>
+	</div>
+</div>
+<!-- end 活動成效 -->
+<footer></footer>
 </body>
 <script>
 AOS.init();
