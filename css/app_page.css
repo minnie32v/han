@@ -37,6 +37,23 @@
 
 
 
+/*標題*/
+.title{ font-weight:600;  }
+h2.titleA ,h2.titleB{ font-size:4rem;margin:40px 0; }
+h3.titleA ,h3.titleB{ font-size:2.4rem; margin-bottom:50px; }
+.titleA{ position:relative; background:#f18b27; color:#fff; border-radius:8px; padding:.5em 2em; display:inline-block; margin-top:-50%; }
+.titleA:before{ position:absolute; content:''; display:inline-block; width:.7em; padding-top:.7em; background:#f18b27; left:50%; bottom:0; transform:translate(-50%,50%)rotate(45deg); }
+.titleA.light{ background:#fff; color:#f18b27; }
+.titleA.light:before{ background:#fff; }
+.titleB{ color:#f18b27; display:inline-block; }
+.titleB:before ,.titleB:after{ content:''; display:inline-block; background:url(../images/title-bg.svg) center center no-repeat; background-size:100% auto; width:2.3em; height:1em; }
+.titleB:before{ margin-right:.5em; }
+.titleB:after{ margin-left:.5em; }
+.titleB.light{ color:#fff; }
+.titleB.light:before ,.titleB.light:after{ content:''; display:inline-block; background:url(../images/title-bg-l.svg) center center no-repeat; background-size:100% auto; width:2.3em; height:1em; }
+
+
+
 /* Tabs */
 
 .step{

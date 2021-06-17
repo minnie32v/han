@@ -18,7 +18,7 @@
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="js/lib/slick/slick.css">
 		<link rel="stylesheet" href="js/lib/slick/slick-theme.css">
-		<link rel="stylesheet" href="css/app_page.css?v=3">
+		<link rel="stylesheet" href="css/app_page.css">
 		<link rel="stylesheet" href="css/style.css">
 		<!-- jQuery -->
 		<script src="js/jquery-3.5.1.min.js"></script>
@@ -192,5 +192,109 @@
 	</section>
 	
 	<footer></footer>
+	<script>
+	// APP Tab slick
+	$(document).ready(function(){
+	//購買流程-輪播
+	$('.buy-slider-for').slick({
+	  lazyLoad: 'ondemand',
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:true,
+	  infinite:false,
+	  asNavFor:'.buy-slider-nav'
+	});
+	$('.buy-slider-nav').slick({
+	  slidesToShow:7,
+	  slidesToScroll:1,
+	  arrows:false,
+	  dots:false,
+	  focusOnSelect: true,
+	  vertical:true,
+	  infinite:false,
+	  asNavFor:'.buy-slider-for',
+	  responsive: [
+	      {
+	        breakpoint: 480,
+	        settings: {
+	          slidesToShow:1,
+	          slidesToScroll: 1,
+	          vertical:false,
+	          dots:true,
+	        }
+	      }
+	    ]
+	});
+	//兌換流程-輪播1
+	$('.exchange1 .exchange-slider-for').slick({
+	  lazyLoad: 'ondemand',
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:true,
+	  infinite:false,
+	  asNavFor:'.exchange1 .exchange-slider-nav'
+	});
+	$('.exchange1 .exchange-slider-nav').slick({
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:false,
+	  dots:true,
+	  focusOnSelect: true,
+	  infinite:false,
+	  asNavFor:'.exchange1 .exchange-slider-for'
+	});
+
+	//兌換流程-輪播2
+	$('.exchange2 .exchange-slider-for').slick({
+	  lazyLoad: 'ondemand',
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:true,
+	  infinite:false,
+	  asNavFor:'.exchange2 .exchange-slider-nav'
+	});
+	$('.exchange2 .exchange-slider-nav').slick({
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:false,
+	  dots:true,
+	  focusOnSelect: true,
+	  infinite:false,
+	  asNavFor:'.exchange2 .exchange-slider-for'
+	});
+
+
+	//轉贈流程-輪播1
+	$('.give-slider-for').slick({
+	  lazyLoad: 'ondemand',
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:true,
+	  infinite:false,
+	  asNavFor:'.give-slider-nav'
+	});
+	$('.give-slider-nav').slick({
+	  slidesToShow:7,
+	  slidesToScroll:1,
+	  arrows:false,
+	  dots:false,
+	  focusOnSelect: true,
+	  vertical:true,
+	  infinite:false,
+	  asNavFor:'.give-slider-for',
+	  responsive: [
+	      {
+	        breakpoint: 480,
+	        settings: {
+	          slidesToShow:1,
+	          slidesToScroll: 1,
+	          vertical:false,
+	          dots:true,
+	        }
+	      }
+	    ]
+	});
+	});
+	</script>
 </body>
 </html>
