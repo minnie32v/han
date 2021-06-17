@@ -63,9 +63,7 @@ a{ text-decoration: none;}
 .col-5{ width: calc(100%/5 - 24px);}
 .col-6{ width: calc(100%/6 - 24px);}
 
-.text-center{
-  text-align: center;
-}
+.text-center{ text-align: center;}
 /* $Pc
 --------------------------------------------------------------------------------------*/
 /*----------*\
