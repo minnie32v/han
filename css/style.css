@@ -54,6 +54,8 @@ a{ text-decoration: none;}
 .content{padding: 40px 0;}
 
 .row{ display: flex; justify-content: space-between; }
+.row-reverse{ flex-direction: row-reverse;}
+.row-center{ display: flex; justify-content: center;}
 .col-2,.col-3,.col-4{ position: relative; display: inline-block; box-sizing: border-box; padding: 40px 0;}
 .col-2{ width: calc(100%/2 - 24px);}
 .col-3{ width: calc(100%/3 - 24px);}

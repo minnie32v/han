@@ -46,14 +46,7 @@
 	padding: 60px 0;
 }
 
-.row-reverse{
-	flex-direction: row-reverse;
-}
 
-.row-center{ 
-	display: flex; 
-	justify-content: center;
-}
 .pic-png{
 	filter:drop-shadow(2px 2px 2px  rgba(0,0,0,0.2));
 }
