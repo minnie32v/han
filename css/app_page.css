@@ -9,7 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-   /* z-index: 1; */
+  min-height: 1000px;
 }
 
 .tabs .tab {
