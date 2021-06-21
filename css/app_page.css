@@ -131,14 +131,8 @@
 .slider-nav{ width:60%; height: 100%!important; padding: 0 0 0 80px; }
 .slider-nav .slick-list.draggable { height: 100%!important; }
 .slider-nav h4{ position:relative; padding:2em 0 0 0; font-size: 16px;color: #707070;}
-.slider-nav .slick-track{padding-bottom: 40px;}
+.slider-nav .slick-track{padding-bottom: 40px;transform: translate3d(0px, 0px, 0px)!important;/* 輪播文字跟圖不會亂跑 */}
 .slider-nav .slick-slide{ cursor:pointer; }
-
-
-
-.slick-slider .slick-track, .slick-slider .slick-list .slick-track{transform: translate3d(0px, 0px, 0px);}
-/* .slick-list{ z-index:1;} */
-.slick-list.draggable{height:100%!important;}
 
 .slick-dots li{ width:12px; height:12px; margin:0 10px;}
 .slick-dots li button{ width:auto; height:auto; z-index:2; }
