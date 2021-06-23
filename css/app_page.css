@@ -158,7 +158,116 @@
 
 
 
+/* $iPad pro
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:1024px) and (max-width:1365px){
 
+
+.slider-box{ 
+  width: 60%;
+  display: block;
+}
+.slider-for{
+  width: 70%;
+  margin: 0 auto;
+}
+.bg-color{
+  width: 100%;
+  padding-top: 200px;
+  margin: -160px auto 0 auto;
+}
+.slider-nav{
+  padding: 0 16px 0 24px;
+}
+
+
+}
+
+/* $iPad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:1023px){
+.tabs label{
+  width: 280px;
+}
+.tabs input[type="radio"]:checked + label:before,
+.tabs input[type="radio"]:checked + label:after{
+  width: 56px;
+}
+
+.slider-for{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider-nav{
+  padding: 0 24px;
+}
+
+}
+
+
+/* $Mobile
+--------------------------------------------------------------------------------------*/
+@media screen and (max-width:767px){
+
+.tabs .tab{
+  width: 100%;
+  margin: 0 auto;
+  top: 100%;
+}
+.app-tab{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tabs label{
+  width: calc(100%/2 - 8px);
+}
+.tabs input[type="radio"]:checked + label:before,
+.tabs input[type="radio"]:checked + label:after{
+  width: 16px;
+  top: 12px;
+}
+.app-title{
+  display: none;
+}
+.app-name{
+  margin-bottom: 8px;
+}
+
+.slider-box{ 
+  width: 100%;
+  display: block;
+  margin-top:24px; 
+}
+
+.slider-for{
+  width: 60%;
+  margin: 0 auto;
+}
+.bg-color{
+  width: 100%;
+  padding-top: 200px;
+  margin: -160px auto 0 auto;
+}
+.slider-nav{
+  padding: 0 16px;
+}
+.slider-nav .slick-track{
+  width: auto!important;
+}
+
+.slider-nav .slick-slide .step{
+  margin-top: -24px;
+  padding: 0 0 12px 24px;
+  width: 100%;
+  font-size: 14px;
+}
+
+
+}
 
 
 
