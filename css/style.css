@@ -179,6 +179,9 @@ hr{
 }
 /* ------------end 列表頁共用------------ */
 
+/* for index */
+.index .link{text-align: left; font-size: 2em;}
+
 
 /*----------*\
     footer
