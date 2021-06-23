@@ -1,15 +1,14 @@
 /* Tabs */
 .app-content{
   margin-top: 80px;
+  height: 100%;
 
 }
 .tabs {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   flex-direction: column;
-  min-height: 700px;
 }
 
 .tabs .tab {
