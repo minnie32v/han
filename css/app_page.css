@@ -194,9 +194,19 @@
   width: 56px;
 }
 
+.slider-box{ 
+  width: 60%;
+  display: block;
+}
+
 .slider-for{
   width: 80%;
   margin: 0 auto;
+}
+.bg-color{
+  width: 100%;
+  padding-top: 200px;
+  margin: -160px auto 0 auto;
 }
 
 .slider-nav{
