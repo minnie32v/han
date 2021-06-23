@@ -190,7 +190,7 @@
 @media screen and (min-width:768px) and (max-width:1023px){
 
 .app-content{
-  min-height: 1400px;
+  min-height: 1300px;
 }
 
 
@@ -208,7 +208,7 @@
 }
 
 .slider-for{
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 .bg-color{
