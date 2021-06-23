@@ -31,6 +31,7 @@
 .app-name{
   margin-bottom: 16px;
   cursor: pointer;
+  font-weight: normal;
 }
 
 .tabs label{
@@ -125,7 +126,7 @@
 .slider-nav .slick-list.draggable { height: 100%!important; }
 .slider-nav .slick-track{/* padding-bottom: 40px; */ height: auto!important; transform: translate3d(0px, 0px, 0px)!important;/* 輪播文字跟圖不會亂跑 */}
 .slider-nav .slick-slide{ cursor:pointer; text-align:left; }
-.slider-nav .slick-slide .step{display: inline-block; width: 92%; vertical-align: top; padding: 0 0 16px 0 ;}
+.slider-nav .slick-slide .step{display: inline-block; width: 92%; vertical-align: top; padding: 0 0 16px 0 ; font-weight: normal;}
 .slider-nav .slick-slide h4{ position:relative; padding:0; font-size: 16px;color: #707070; transition:all .6s;}
 .slider-nav .slick-slide h4:before ,.slider-nav .slick-slide h4:after{ content:''; display:inline-block; transition:all .6s; }
 .slider-nav .slick-slide h4:before{ width:16px; height:16px; border-radius:50%; background-color: #707070; margin-right:10px; z-index:1; position:relative; }
