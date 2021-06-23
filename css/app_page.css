@@ -2,7 +2,6 @@
 .app-content{
   margin-top: 80px;
   height: 100%;
-
 }
 .tabs {
   display: -webkit-box;
@@ -186,6 +185,12 @@
 /* $iPad
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:768px) and (max-width:1023px){
+
+.app-content{
+  min-height: 1400px;
+}
+
+
 .tabs label{
   width: 280px;
 }
@@ -208,6 +213,9 @@
   padding-top: 200px;
   margin: -160px auto 0 auto;
 }
+.slider-nav{
+  padding: 0 16px 0 24px;
+}
 
 .slider-nav{
   padding: 0 24px;
@@ -219,6 +227,10 @@
 /* $Mobile
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width:767px){
+
+.app-content{
+  min-height: 1200px;
+}
 
 .tabs .tab{
   width: 100%;
