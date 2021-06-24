@@ -159,12 +159,12 @@ hr{
   background-attachment: fixed;
   width: 100%;
   height: 1000px;
-  clip-path:circle(480px at center 560px);
+  clip-path:circle(440px at center 520px);
 }
     
 .kv-title{
   position: absolute;
-  top: 16%;
+  top: 20%;
   left: 20%;
   font-size: 200px;
   font-weight: bold;
