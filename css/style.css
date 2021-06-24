@@ -245,9 +245,19 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
   end header
 \*----------*/
 
+/* ---------- kv ---------- */
+.kv {
+    background-size: cover;
+    clip-path: circle(440px at center 520px);
+}
+.kv-title {
+    top: 22%;
+    left: 10%;
+    font-size: 200px;
+}
+/* ---------- end kv ---------- */
 
 }
-
 
 /* $iPad
 --------------------------------------------------------------------------------------*/
