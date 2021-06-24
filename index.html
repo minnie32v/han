@@ -27,31 +27,68 @@
 		<!-- custom js -->
 		<script src="js/script.js"></script>
 		<style>
-			.link a{border: 2px solid #707070;	color:#707070;}
+		.index .link{text-align: left; font-size: 2em;}
+						.link a{border: 2px solid #707070;	color:#707070;}
 		.link a:before{background-color: #fff;}
 		.link a:after{background-color: #fff;}
+		
+		/* mask */
+		.mask{			
+			position: relative;
+			width: 100%;
+			background:url('images/index_bg.jpg') left top no-repeat;
+			background-size: cover;
+			/* background-color: rgba(0, 0, 0, 0.2); */
+			padding-top: 120px;
+		}
+		.kv{
+			background:url('images/kv.jpg') bottom center no-repeat;
+			background-size: contain;
+			background-attachment: fixed;
+			width: 100%;
+			height: 1000px;
+			clip-path:circle(480px at center 480px);
+		}
+		
+		.kv .title{
+			text-align: center;
+			font-size: 16px;
+			color: #f5f5f5;
+			line-height: 32px;
+		}
 		</style>
 	</head>
 	<body class="index">
 	<header></header>
 	<!-- kv -->
 	<!-- <div class="kv-bg">
-		<div class="kv-container">
-			<div class="kv-slick">
-				<picture>
-					<source media="(min-width:768px)" srcset="images/kv1.png" />
-					<source srcset="images/kv1-m.png">
-					<img src="images/kv1-m.png" alt="">
-				</picture>
-				<picture>
-					<source media="(min-width:768px)" srcset="images/kv2.png" />
-					<source srcset="images/kv2-m.png">
-					<img src="images/kv2-m.png" alt="">
-				</picture>
-				
-			</div>
-		</div>
+							<div class="kv-container">
+													<div class="kv-slick">
+																			<picture>
+																									<source media="(min-width:768px)" srcset="images/kv1.png" />
+																									<source srcset="images/kv1-m.png">
+																									<img src="images/kv1-m.png" alt="">
+																			</picture>
+																			<picture>
+																									<source media="(min-width:768px)" srcset="images/kv2.png" />
+																									<source srcset="images/kv2-m.png">
+																									<img src="images/kv2-m.png" alt="">
+																			</picture>
+																			
+													</div>
+							</div>
 	</div> -->
+	<!-- end kv -->
+	
+	<!-- kv -->
+	
+		<div class="mask">
+	<div class="kv">
+		<div class="title">DESIGN
+		</div>
+		</div>
+		
+	</div>
 	<!-- end kv -->
 	
 	<!-- 內容 -->
