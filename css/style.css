@@ -473,6 +473,9 @@ hr {
   width: 100%; 
   z-index: 999;
 }
+.navCheck:checked ~ .logo{
+  display: none;
+}
 /*----------*\
   end header
 \*----------*/
