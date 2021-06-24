@@ -145,22 +145,42 @@ hr{
 
 
 /* ---------- kv ---------- */
-.kv-container{
+.mask{
+  position: relative;
   width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 80px 0;
+  background:url('../images/index_bg.jpg') left top no-repeat;
+  background-size: cover;
+  padding-top: 120px;
 }
-.kv-bg{
-  margin-top: 80px;
+.kv{
+  background:url('../images/kv.jpg') bottom center no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+  height: 1000px;
+  clip-path:circle(480px at center 480px);
 }
-
-.slick-prev:before, .slick-next:before{
-  color: #2e2f2e;
-  opacity: 1;
+    
+.kv-title{
+  position: absolute;
+  top: 16%;
+  left: 20%;
+  font-size: 200px;
+  font-weight: bold;
+  line-height: 1em;
+  color: rgba(0, 0, 0, 0.1);
 }
 /* ---------- end kv ---------- */
 
+/* ---------- for index ---------- */
+.index .link{text-align: left; font-size: 2em;}
+.index .title{ display: inline-block; }
+.index .title:after{content: ''; position: absolute; bottom: 8px; left: 50%; transform: translate(-50%, 0); width: 100%; height: 16px; background-color:#bed1c6; padding: 0 8px; z-index: -1;}
+.link a{border: 2px solid #707070;  color:#707070;}
+.link a:before{background-color: #fff;}
+.link a:after{background-color: #fff;}
+    
+/* ---------- end for index ---------- */
 
 
 /* ------------列表頁共用------------ */
