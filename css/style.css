@@ -373,7 +373,7 @@ nav{
   overflow:hidden; 
   transition:height 1s; 
   transform:translateY(0); 
-  background:rgba(0,0,0,0.8);
+  background:#fff;
   margin-top: 64px; 
 }
 hr {
@@ -388,7 +388,7 @@ hr {
   display:flex; 
   flex-direction:column; 
   justify-content:flex-start;
-  padding: 0 16px;
+  padding: 40px 16px 0 16px;
   width: 100%;
   text-align: center; 
   background-color: #fff; 
