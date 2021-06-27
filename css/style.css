@@ -164,9 +164,9 @@ hr{
     
 .kv-title{
   position: absolute;
-  top: 20%;
-  left: 20%;
-  font-size: 200px;
+  top: 30%;
+  left: 30%;
+  font-size: 100px;
   font-weight: bold;
   line-height: 1em;
   color: rgba(0, 0, 0, 0.1);
