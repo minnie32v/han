@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  z-index: 9;
 }
 .controls:hover:after {
   transform: translateX(-10px) rotate(45deg);
@@ -226,4 +227,36 @@
 
 
 /* ---------- end 工作經歷 ---------- */
+
+
+
+
+
+/* $ maxPC
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:1920px){
+
+}
+
+/* $iPad pro
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:1024px) and (max-width:1365px){
+
+}
+
+
+
+/* $iPad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+}
+
+
+
+/* $Mobile
+--------------------------------------------------------------------------------------*/
+@media screen and (max-width:767px){
+	
+}
 
