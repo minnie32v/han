@@ -1,3 +1,26 @@
+/* ---------- 自我介紹 ---------- */
+
+.my-pic{
+  width: 32%;
+  padding-top: 80px;
+  padding-right: 40px;
+  
+}
+.my-pic img{
+  border-radius: 24px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
+}
+.my-text{
+  width: 68%;
+  padding-top: 80px;
+}
+
+
+/* ---------- end 自我介紹 ---------- */
+
+
+
+/* ---------- 工作經歷輪播 ---------- */
 .controls {
   width: 40px;
   height: 40px;
@@ -118,19 +141,54 @@
   background-size: cover;
   background-position: center; */
 }
+
 .time-line .dates-wrap .date .date-content > div {
   opacity: 0;
   transform: translateY(40px);
 }
 .time-line .dates-wrap .date .date-content .date-text {
   width: 100%;
-  height: 60px;
-  background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #707070;
+  /* height: 24px; */
+  /* background-color: #fff; */
+  font-size: 28px;
+  font-weight: bold;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  color: #fff;
 }
+.time-line .dates-wrap .date .date-content .date-text:after{
+  content: '';
+  position: absolute; 
+  bottom: 0; 
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  width: 100%; 
+  height: 2px; 
+  background-color:#fff; 
+  /* margin: 8px 0; */
+  z-index: -1;
+}
+
+/* ---------- 工作介紹 ---------- */
+
+.time{
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 4px;
+  color:#fff; 
+}
+
+.work-title{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 16px;
+}
+
+/* ---------- end 工作介紹 ---------- */
+
+
+
 .time-line .dates-wrap .date .date-year {
   opacity: 0.4;
   width: 100%;
@@ -140,6 +198,11 @@
   align-items: center;
   cursor: pointer;
 }
+.time-line .dates-wrap .date .date-year i{
+  margin-top: -12px;
+}
+
+
 .time-line .dates-wrap .date .date-year:hover {
   opacity: 1 !important;
 }
@@ -222,12 +285,7 @@
 }
 
 
-
-/* ---------- 工作經歷 ---------- */
-
-
-/* ---------- end 工作經歷 ---------- */
-
+/* ---------- end 工作經歷輪播 ---------- */
 
 
 
