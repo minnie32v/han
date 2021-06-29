@@ -165,11 +165,12 @@ hr{
     
 .kv-title{
   position: absolute;
-  top: 20%;
-  left: 20%;
-  font-size: 200px;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 80px;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1.2em;
   color: rgba(0, 0, 0, 0.1);
 }
 /* ---------- end kv ---------- */
@@ -229,11 +230,11 @@ footer{ background-color: #707070;}
 
   .kv-title{
     position: absolute;
-    top: 28%;
-    left: 28%;
-    font-size: 180px;
+    /* top: 28%; */
+    /* left: 28%; */
+    /* font-size: 180px; */
     font-weight: bold;
-    line-height: 1em;
+    /* line-height: 1em; */
     color: rgba(0, 0, 0, 0.1);
   }
 }
@@ -277,9 +278,9 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
     clip-path: circle(440px at center 520px);
 }
 .kv-title {
-    top: 22%;
-    left: 10%;
-    font-size: 200px;
+    /* top: 22%; */
+    /* left: 10%; */
+    font-size: 100px;
 }
 /* ---------- end kv ---------- */
 
@@ -324,9 +325,9 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
     height: 700px;
 }
 .kv-title {
-    top: 22%;
-    left: 12%;
-    font-size: 140px;
+    /* top: 22%; */
+    /* left: 12%; */
+    /* font-size: 140px; */
 }
 /* ---------- end kv ---------- */
 
@@ -514,9 +515,9 @@ hr {
 }
 
 .kv-title {
-    top: 32%;
-    left: 12%;
-    font-size: 64px;
+    top: 24%;
+    /* left: 12%; */
+    font-size: 32px;
 }
 
 .index .title{
