@@ -102,13 +102,13 @@
   height: 100%;
   left: -1px;
   transform: translate(-50%, -50%);
-  background: linear-gradient(to right,#bed1c6 0%, #bed1c6  100%);
+  background: linear-gradient(to right,rgba(190, 209, 198)  0%, rgba(190, 209, 198, 0) 100%);
   z-index: 2;
 }
 .time-line .dates-wrap:after {
   left: auto;
   right: -1px;
-  background: linear-gradient(to left, #bed1c6 0%, #bed1c6  100%);
+  background: linear-gradient(to left, rgba(190, 209, 198) 0%, rgba(190, 209, 198, 0) 100%);
   transform: translate(50%, -50%);
 }
 .time-line .dates-wrap .date {
