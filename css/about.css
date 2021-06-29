@@ -424,6 +424,9 @@
   padding-right: 0;
   
 }
+.my-pic img{
+  border-radius: 100px;
+}
 .my-text{
   width: 100%;
   padding-top: 16px;
