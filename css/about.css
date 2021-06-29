@@ -124,7 +124,7 @@
 .time-line .dates-wrap .date .date-content {
   visibility: hidden;
   position: absolute;
-  width: 340px;
+  width: 400px;
   height: 280px;
   bottom: 100%;
   margin-bottom: 40px;
@@ -299,9 +299,9 @@
   visibility: visible;
   background-color: #fff;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 16px;
+  padding: 16px 20px;
   border-radius: 16px;
-  z-index: 2;
+  z-index: 9;
 }
 .time-line .dates-wrap .date.active .date-content:after {
   transition-delay: 200ms;
@@ -330,6 +330,44 @@
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:1024px) and (max-width:1365px){
 
+  /* ---------- 自我介紹 ---------- */
+
+.my-pic{
+  width: 32%;
+  padding-top: 80px;
+  padding-right: 40px;
+  
+}
+.my-pic img{
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
+}
+.my-text{
+  width: 68%;
+  padding-top: 80px;
+}
+.my-text h5{
+  color: #bed1c6;
+}
+
+/* ---------- end 自我介紹 ---------- */
+
+/* ---------- 工作經歷輪播 ---------- */
+
+.time-line h1{
+  max-width: 900px;
+  font-size: 32px;
+}
+.controls {
+  left: 80px;
+}
+.controls.next{
+  right: 80px;
+}
+
+
+/* ---------- end 工作經歷輪播 ---------- */
+
 }
 
 
@@ -337,6 +375,38 @@
 /* $iPad
 --------------------------------------------------------------------------------------*/
 @media screen and (min-width:768px) and (max-width:1023px){
+
+/* ---------- 自我介紹 ---------- */
+
+.my-pic{
+  width: 40%;
+  padding-top: 80px;
+  padding-right: 0;
+  
+}
+.my-text{
+  width: 100%;
+  padding-top: 40px;
+}
+
+/* ---------- end 自我介紹 ---------- */
+
+/* ---------- 工作經歷輪播 ---------- */
+
+.time-line h1{
+  max-width: 700px;
+  font-size: 32px;
+}
+.controls {
+  left: 40px;
+}
+.controls.next{
+  right: 40px;
+}
+
+
+/* ---------- end 工作經歷輪播 ---------- */
+
 
 }
 
@@ -346,5 +416,76 @@
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width:767px){
 	
+/* ---------- 自我介紹 ---------- */
+
+.my-pic{
+  width: 50%;
+  padding-top: 80px;
+  padding-right: 0;
+  
+}
+.my-text{
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+
+/* ---------- end 自我介紹 ---------- */
+
+/* ---------- 工作經歷輪播 ---------- */
+.time-line{
+  height: 640px;
+}
+.time-line h1{
+  max-width: 100%;
+  padding: 0 16px;
+  font-size: 32px;
+}
+.controls {
+  left: 16px;
+  top: 16%;
+}
+.controls.next{
+  right: auto;
+  left: 80px;
+  top: 16%;
+}
+.controls:hover:after{
+  transform: translateX(0px) rotate(45deg);
+}
+
+.time-line .dates-wrap .date .date-content {
+  width: 340px;
+  height: 260px;
+}
+
+.time-line .dates-wrap .date .date-content .date-text{
+  font-size: 20px;
+}
+.time-line .dates-wrap .date .date-content .date-text:before{
+  font-size: 22px;
+}
+
+/* ---------- 工作介紹 ---------- */
+
+.time{
+  font-size: 14px;
+}
+
+.work-title{
+  font-size: 16px;
+}
+.description{
+  font-size: 12px;
+}
+
+
+
+/* ---------- end 工作介紹 ---------- */
+
+
+/* ---------- end 工作經歷輪播 ---------- */
+
+
 }
 
