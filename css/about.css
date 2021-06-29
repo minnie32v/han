@@ -102,13 +102,13 @@
   height: 100%;
   left: -1px;
   transform: translate(-50%, -50%);
-  background: linear-gradient(to right,#bed1c6 0%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(to right,#bed1c6 0%, #bed1c6  100%);
   z-index: 2;
 }
 .time-line .dates-wrap:after {
   left: auto;
   right: -1px;
-  background: linear-gradient(to left, #bed1c6 0%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(to left, #bed1c6 0%, #bed1c6  100%);
   transform: translate(50%, -50%);
 }
 .time-line .dates-wrap .date {
@@ -152,9 +152,6 @@
 .time-line .dates-wrap .date .date-content .date-work {
   width: 100%;
   height: calc(100% - 60px);
-  /* background-image: url(https://images.unsplash.com/photo-1573591172652-f548fe02ef77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=844&q=80);
-  background-size: cover;
-  background-position: center; */
 }
 
 .time-line .dates-wrap .date .date-content > div {
