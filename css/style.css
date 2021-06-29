@@ -118,7 +118,7 @@ nav ul li a{
   color: #707070;
   padding: 8px 0;
   font-size: 1.6em;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.2s;
 }
 nav ul li a:hover{
   color: #bed1c6;
