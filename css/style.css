@@ -120,7 +120,7 @@ nav ul li a{
   font-size: 1.6em;
   transition: ease-in-out 0.5s;
 }
-nav ul li:hover{
+nav ul li a:hover{
   color: #bed1c6;
 }
 
@@ -532,8 +532,8 @@ hr {
 
 /* ---------- for index ---------- */
 
-.index h2{font-size: 1.4em;}
-.index h4{font-size: 1.4em;}
+.index h2{font-size: 1.2em;}
+.index h4{font-size: 1em;}
 
 .index .link{font-size: 1em; margin: -24px 0 0 0;}
 
