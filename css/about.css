@@ -17,6 +17,10 @@
 .my-text h5{
   color: #bed1c6;
 }
+.my-text i{
+  color: #bed1c6;
+  padding-right: 8px;
+}
 
 /* ---------- end 自我介紹 ---------- */
 
@@ -69,7 +73,7 @@
 
 .time-line {
   width: 100%;
-  height: 640px;
+  height: 700px;
   background-color: #bed1c6;
   display: flex;
   justify-content: center;
@@ -124,8 +128,8 @@
 .time-line .dates-wrap .date .date-content {
   visibility: hidden;
   position: absolute;
-  width: 400px;
-  height: 280px;
+  width: 640px;
+  height: 360px;
   bottom: 100%;
   margin-bottom: 40px;
   /* margin-bottom: 80px; */
@@ -204,6 +208,18 @@
 .description ul li{
   list-style-type: disc;
   margin-left: 1.5em;
+}
+
+.description .link{
+  font-size: 1.4em;
+  text-align: left;
+  margin-left:8px;
+}
+
+.description .link a{
+  padding: 8px 32px ;
+  border: 1px solid #707070;
+  margin:16px 16px 0px 0px;
 }
 
 
@@ -415,10 +431,10 @@
   font-size: 32px;
 }
 .controls {
-  left: 40px;
+  left: 24px;
 }
 .controls.next{
-  right: 40px;
+  right: 24px;
 }
 
 
@@ -454,7 +470,7 @@
 
 /* ---------- 工作經歷輪播 ---------- */
 .time-line{
-  height: 600px;
+  height: 680px;
 }
 .time-line h1{
   max-width: 100%;
@@ -482,7 +498,7 @@
 
 .time-line .dates-wrap .date .date-content {
   width: 340px;
-  height: 260px;
+  height: 340px;
 }
 
 .time-line .dates-wrap .date .date-content .date-text{
