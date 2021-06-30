@@ -18,155 +18,86 @@
 		<!-- icon font -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 		<!-- reset -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 		
 		<!-- custom css -->
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="js/lib/slick/slick.css">
 		<link rel="stylesheet" href="js/lib/slick/slick-theme.css">
-		<link rel="stylesheet" href="css/web_page.css">
+		<link rel="stylesheet" href="css/circle.css">
+		<!-- <link rel="stylesheet" href="css/web_page.css"> -->
 		<link rel="stylesheet" href="css/style.css">
 		<!-- jQuery -->
 		<script src="js/jquery-3.5.1.min.js"></script>
 		<script src="js/lib/slick/slick.min.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.js"></script>
 		<!-- custom js -->
 		<script src="js/script.js"></script>
 	</head>
 	<body class="index">
 	<header></header>
 	<!-- kv -->
-	<div class="mask">
-		<div class="kv">
-			<div class="kv-title">Hello,<br>I'm Han.</div>
+	<div class="venn">
+		<div class="logo" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="2000">HAN</div>
+		<div class="circle one animated rotateInDownLeft">
+			<div class="circle-content">
+				<h2>WEB DESIGN</h2>
+				<p>html css javascript</p>
+				<p class="description">Focused on evaluating and navigating emerging media, data and technology-enabled solutions & partnership opportunities</p>
+				<a class="button" href="#">Learn More</a>
+			</div>
+			<video preload="auto" autoplay="" loop="" class="fillWidth fadeIn animated" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Busy.jpg">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Busy.mp4" type="video/mp4">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Busy.mp4" type="video/webm">
+			</video>
 		</div>
-		
+		<div class="circle two animated rotateInDownRight">
+			<div class="circle-content">
+				<h2>UIUX DESIGN</h2>
+				<p>APP EVENT</p>
+				<p class="description">We provide access to preferred pricing and premium inventory to drive maximum value to our clients.</p>
+				<a class="button" href="#">Learn More</a>
+			</div>
+			<video preload="auto" autoplay="" loop="" class="fillWidth fadeIn animated" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Blurry-Lights.jpg">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Blurry-Lights.mp4" type="video/mp4">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Blurry-Lights.mp4" type="video/webm">
+			</video>
+		</div>
+		<div class="circle three animated rotateInDownLeft">
+			<div class="circle-content">
+				<h2>VISUAL Design</h2>
+				<p>BANNER EDM PHOTOGRAPHY</p>
+				<p class="description">Trusted global source for predicting the future of media value, economic data, media and consumer consumption trends.</p>
+				<a class="button" href="#">Learn More</a>
+			</div>
+			<video preload="auto" autoplay="" loop="" class="fillWidth fadeIn animated" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Night-Traffic.jpg">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Night-Traffic.mp4" type="video/mp4">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Night-Traffic.mp4" type="video/webm">
+			</video>
+		</div>
 	</div>
 	<!-- end kv -->
 	
-	<!-- 內容 -->
-	<section class="container">
-		<div class="text-center">
-			<h2 class="title" data-aos="fade-up" data-aos-duration="1500">FEATURED WORKS</h2>
-		</div>
-		<div class="content work">
-			<div class="row">
-				<div class="col-2" data-aos="fade-up" data-aos-duration="1500" >
-					<img src="images/web/cycling/cycling.jpg" alt="">
-				</div>
-				<div class="col-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-					<h2>世界自行車日</h2>
-					<h4>統整活動資訊並推廣活動</h4>
-					<p>將以往分散的資訊，統整在一個網頁上，利用RWD製作的方式，不論什麼裝置都能隨時看到完整的活動資訊，藉此推廣將網友從線上帶到線下，實際體驗自行車的美好，讓更多人一起響應世界自行車日。</p>
-					<div class="content">
-						<div class="link">
-							<a href="cycling.html" target="_blank"><span>VIEW PROJECT</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="content work" >
-			<div class="row row-reverse">
-				<div class="col-2" data-aos="fade-up" data-aos-duration="1500">
-					<img src="images/web/opappintro/opappintro.jpg" alt="">
-				</div>
-				<div class="col-2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-					<h2>OPEN POINT APP 功能介紹</h2>
-					<h4>整合APP相關網頁</h4>
-					<p>隨著近年電子支付盛行，OPEN POINT APP推出越來越多功能，將OPEN錢包、icashPay、行動隨時取、會員載具，四大主要功能整合在此頁，讓消費者更清楚APP有哪些功能。</p>
-					<div class="content">
-						<div class="link">
-							<a href="opappintro.html" target="_blank"><span>VIEW PROJECT</span></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-		
-		
-		
-		<div class="content">
-			<div class="text-center">
-				<h2 class="title" data-aos="fade-up" data-aos-duration="1500">ABOUT ME</h2>
-			</div>
-			<div class="content">
-				<div class="row"  data-aos="fade-up" data-aos-duration="1500"  data-aos-delay="300">
-					<div class="my-pic">
-						<img src="images/my.jpg" alt="">
-					</div>
-					<div class="my-text">
-						<h5>嗨，我是如涵，我是一位網頁設計師<br>
-						畢業於輔仁大學 應用美術學系 - 視覺傳達設計組</h5>
-						
-						<ul>
-							<li>擁有平面設計背景，網頁設計經驗3年，會撰寫html、css，套用js插件。</li>
-							<li>曾製作統一集團旗下企業官網維護、活動網站建置、APP活動遊戲。</li>
-							<li>工作上善於觀察，喜歡團隊合作，解決問題。</li>
-						</ul>
-						
-						<p class="mobile-hidden">畢業後，從事平面設計相關工作約1年，對新事物總是充滿好奇心、喜歡嘗試，學習約1年網頁設計及程式撰寫，轉職網頁設計師。<br>
-							
-						在網頁設計領域工作3年多，曾製作統一集團旗下企業官網及活動網站建置，在網路行銷求新求變的環境下，資訊和技術都更新的非常快速，是讓我對設計一直保持熱情的重要因素。</p>
-						<div class="link">
-							<a href="about.html"><span>READ MORE</span></a>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-			<div class="content mobile-hidden">
-				<div class="row">
-					<div class="col-2 text-center" data-aos="fade-up" data-aos-duration="1500">
-						<h4 class="color"><i class="fas fa-toolbox"></i><br>專業技能</h4>
-						<div class="row-center pic">
-							<div class="col-3">
-								<img src="images/vi.png" alt="">
-								<p>視覺設計</p>
-							</div>
-							<div class="col-3">
-								<img src="images/code.png" alt="">
-								<p>網頁切版</p>
-							</div>
-							<div class="col-3">
-								<img src="images/talk.png" alt="">
-								<p>團隊溝通</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-2 text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-						<h4 class="color"><i class="fas fa-wrench"></i><br>擅長工具</h4>
-						<div class="row-center tool">
-							<div class="col-4">
-								<img src="images/ps.png" alt="">
-								<p>Photoshop</p>
-							</div>
-							<div class="col-4">
-								<img src="images/ai.png" alt="">
-								<p>illustrator</p>
-							</div>
-							<div class="col-4">
-								<img src="images/xd.png" alt="">
-								<p>Adobe XD</p>
-							</div>
-							<div class="col-4">
-								<img src="images/sb.png" alt="">
-								<p>Sublime</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			
-		</div>
-	</section>
-	<!-- end 內容 -->
 	
 <footer></footer>
 </body>
 <script>
+// 進場動態
 	AOS.init();
+// 圓圈效果
+jQuery("h2").fitText();
+jQuery("h3").fitText();
+
+$('.circle').on('click', function(e) {
+  $(this).toggleClass("current");
+  e.preventDefault();
+  $('.logo').toggleClass("open");
+  e.preventDefault();
+});
+
+
 // JavaScript Document
 $(document).ready(function(){
 	// slick輪播
