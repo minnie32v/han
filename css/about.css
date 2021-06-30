@@ -17,10 +17,21 @@
 .my-text h5{
   color: #bed1c6;
 }
-.my-text i{
-  color: #bed1c6;
-  padding-right: 8px;
+.my-text ul{
+  padding: 24px 0;
 }
+.my-text ul li{
+  font-size: 1.6em;
+  line-height: 1.6em;
+  padding-left: 1.4em;
+}
+.my-text ul li:before{
+  content: '\f0eb';
+  color: #bed1c6;
+  margin-left: -1.4em;
+  padding-right: 0.4em;
+}
+
 
 /* ---------- end 自我介紹 ---------- */
 
@@ -464,6 +475,18 @@
   width: 100%;
   padding-top: 16px;
   padding-bottom: 40px;
+}
+
+.my-text ul{
+  padding: 16px 0;
+}
+.my-text ul li{
+  font-size: 0.8em;
+  padding-left: 1.4em;
+}
+.my-text ul li:before{
+  margin-left: -1.4em;
+  padding-right: 0.4em;
 }
 
 /* ---------- end 自我介紹 ---------- */
