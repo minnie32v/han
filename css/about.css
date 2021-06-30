@@ -84,7 +84,7 @@
 
 .time-line {
   width: 100%;
-  height: 700px;
+  height: 740px;
   background-color: #bed1c6;
   display: flex;
   justify-content: center;
@@ -140,7 +140,7 @@
   visibility: hidden;
   position: absolute;
   width: 640px;
-  height: 360px;
+  height: 400px;
   bottom: 100%;
   margin-bottom: 40px;
   /* margin-bottom: 80px; */
@@ -493,7 +493,7 @@
 
 /* ---------- 工作經歷輪播 ---------- */
 .time-line{
-  height: 680px;
+  height: 720px;
 }
 .time-line h1{
   max-width: 100%;
@@ -521,7 +521,7 @@
 
 .time-line .dates-wrap .date .date-content {
   width: 340px;
-  height: 340px;
+  height: 440px;
 }
 
 .time-line .dates-wrap .date .date-content .date-text{
@@ -544,7 +544,14 @@
   font-size: 12px;
 }
 
-
+.description .link{
+  font-size: 1em;
+  margin-left: 0;
+  margin: 16px 0;
+}
+.description .link a{
+  margin: 8px 8px 0px 0px;
+}
 
 /* ---------- end 工作介紹 ---------- */
 
