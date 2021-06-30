@@ -176,13 +176,65 @@ hr{
 /* ---------- end kv ---------- */
 
 /* ---------- for index ---------- */
+/* ---------- 自我介紹 ---------- */
+
+.index .my-pic{
+  width: 32%;
+  padding-top: 40px;
+  padding-right: 40px;
+  
+}
+.index .my-pic:before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 12px;
+  right: 18px;
+  width: 88%;
+  height: 82%;
+  border-radius: 16px;
+  background-color: #bed1c6;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
+}
+
+.index .my-pic img{
+  border-radius: 16px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
+}
+
+.index .my-text{
+  width: 64%;
+  padding-top: 40px;
+}
+.index .my-text h5{
+  color: #bed1c6;
+}
+.index .my-text ul{
+  padding: 24px 0;
+}
+.index .my-text ul li{
+  font-size: 1.6em;
+  line-height: 1.6em;
+  padding-left: 1.4em;
+}
+.index .my-text ul li:before{
+  content: '\f0eb';
+  color: #bed1c6;
+  margin-left: -1.4em;
+  padding-right: 0.4em;
+}
+
+
+/* ---------- end 自我介紹 ---------- */
+
 .color{color:#bed1c6;}
 .index .pic{width: 100%; max-width: 800px; margin: 0 auto; }
+.index .pic .col-3{padding: 24px 0;}
 .index .pic img{width: 60%; padding-bottom: 8px;}
 .index .tool{width: 100%; max-width: 600px; margin: 0 auto; }
 .index .tool img{width: 60%;padding-bottom: 8px;}
-.index .work .link{text-align: left; font-size: 2em;}
-.index .link{text-align: center; font-size: 2em;}
+.index .work .link{text-align: left; font-size: 1em;}
+.index .link{text-align: left; font-size: 2em;}
 .index .title{ display: inline-block; }
 .index .title:after{content: ''; position: absolute; bottom: 8px; left: 50%; transform: translate(-50%, 0); width: 100%; height: 16px; background-color:#bed1c6; padding: 0 8px; z-index: -1;}
 .link a{border: 2px solid #707070;  color:#707070;}

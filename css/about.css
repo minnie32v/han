@@ -1,17 +1,30 @@
 /* ---------- 自我介紹 ---------- */
 
 .my-pic{
-  width: 32%;
+  width: 34%;
   padding-top: 80px;
   padding-right: 40px;
   
 }
+.my-pic:before{
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: 16%;
+  right: 4%;
+  width: 88%;
+  height: 64%;
+  border-radius: 16px;
+  background-color: #bed1c6;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
+}
+
 .my-pic img{
   border-radius: 16px;
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
 }
 .my-text{
-  width: 68%;
+  width: 64%;
   padding-top: 80px;
 }
 .my-text h5{
@@ -382,6 +395,13 @@
   padding-right: 40px;
   
 }
+.my-pic:before{
+  bottom: 44%;
+  right: 8%;
+  width: 88%;
+  height: 40%;
+}
+
 .my-pic img{
   border-radius: 16px;
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
@@ -428,9 +448,15 @@
   padding-right: 0;
   
 }
+.my-pic:before{
+  bottom: -4%;
+  right: -8%;
+  width: 100%;
+  height: 76%;
+}
 .my-text{
   width: 100%;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 /* ---------- end 自我介紹 ---------- */
@@ -468,12 +494,19 @@
   padding-right: 0;
   
 }
+.my-pic:before{
+  bottom: -2%;
+  right: -6%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
 .my-pic img{
   border-radius: 100px;
 }
 .my-text{
   width: 100%;
-  padding-top: 16px;
+  padding-top: 32px;
   padding-bottom: 40px;
 }
 
