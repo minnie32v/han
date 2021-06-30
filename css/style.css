@@ -181,11 +181,11 @@ hr{
 .index .title{ display: inline-block; }
 .index .title:after{content: ''; position: absolute; bottom: 8px; left: 50%; transform: translate(-50%, 0); width: 100%; height: 16px; background-color:#bed1c6; padding: 0 8px; z-index: -1;}
 .index .work .link{text-align: left; font-size: 2em;}
-.index .pic{width: 100%; max-width: 800px; margin: 0 auto; }
-.index .pic .col-3{padding: 24px 0;}
-.index .pic img{width: 60%; padding-bottom: 8px;}
-.index .tool{width: 100%; max-width: 600px; margin: 0 auto; }
-.index .tool img{width: 60%;padding-bottom: 8px;}
+.pic{width: 100%; max-width: 800px; margin: 0 auto; }
+.pic .col-3{padding: 24px 0;}
+.pic img{width: 60%; padding-bottom: 8px;}
+.tool{width: 100%; max-width: 600px; margin: 0 auto; }
+.tool img{width: 60%;padding-bottom: 8px;}
 .index .link{text-align: left; font-size: 2em;margin-top: 16px;}
 .link a{border: 2px solid #707070;  color:#707070;}
 .link a:before{background-color: #fff;}
@@ -289,11 +289,7 @@ footer{ background-color: #707070;}
 
   .kv-title{
     position: absolute;
-    /* top: 28%; */
-    /* left: 28%; */
-    /* font-size: 180px; */
     font-weight: bold;
-    /* line-height: 1em; */
     color: rgba(0, 0, 0, 0.1);
   }
 }
@@ -354,8 +350,8 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
   width: 88%;
   height: 56%;
 }
-.index .pic img{ width: 70%; padding-bottom: 4px;}
-.index .tool img{width: 80%;padding-bottom: 4px;}
+.pic img{ width: 70%; padding-bottom: 4px;}
+.tool img{width: 80%;padding-bottom: 4px;}
 .index .link{margin-top: 16px;}
 
 /* ---------- end 自我介紹 ---------- */
@@ -434,10 +430,10 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
   text-align: center;
   margin-top: 16px;
 }
-.index .pic .col-3{width: calc(100%/3);}
-.index .pic img{ width: 60%; padding-bottom: 4px;}
-.index .tool .col-4{width: calc(100%/4);}
-.index .tool img{width: 70%;padding-bottom: 4px;}
+.pic .col-3{width: calc(100%/3);}
+.pic img{ width: 60%; padding-bottom: 4px;}
+.tool .col-4{width: calc(100%/4);}
+.tool img{width: 70%;padding-bottom: 4px;}
 
 /* ---------- end 自我介紹 ---------- */
 
@@ -650,10 +646,10 @@ hr {
 
 
 .index .work .link{font-size: 1em; margin: -24px 0 0 0;}
-.index .pic .col-3{width: calc(100%/3);}
-.index .pic img{ width: 80%; padding-bottom: 4px;}
-.index .tool .col-4{width: calc(100%/4);}
-.index .tool img{width: 70%;padding-bottom: 4px;}
+.pic .col-3{width: calc(100%/3);}
+.pic img{ width: 80%; padding-bottom: 4px;}
+.tool .col-4{width: calc(100%/4);}
+.tool img{width: 70%;padding-bottom: 4px;}
 
 
 .link a{border: 1px solid #707070;  color:#707070;}
