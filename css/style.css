@@ -176,6 +176,21 @@ hr{
 /* ---------- end kv ---------- */
 
 /* ---------- for index ---------- */
+
+.color{color:#bed1c6;}
+.index .title{ display: inline-block; }
+.index .title:after{content: ''; position: absolute; bottom: 8px; left: 50%; transform: translate(-50%, 0); width: 100%; height: 16px; background-color:#bed1c6; padding: 0 8px; z-index: -1;}
+.index .work .link{text-align: left; font-size: 2em;}
+.index .pic{width: 100%; max-width: 800px; margin: 0 auto; }
+.index .pic .col-3{padding: 24px 0;}
+.index .pic img{width: 60%; padding-bottom: 8px;}
+.index .tool{width: 100%; max-width: 600px; margin: 0 auto; }
+.index .tool img{width: 60%;padding-bottom: 8px;}
+.index .link{text-align: left; font-size: 2em;margin-top: 16px;}
+.link a{border: 2px solid #707070;  color:#707070;}
+.link a:before{background-color: #fff;}
+.link a:after{background-color: #fff;}
+
 /* ---------- 自我介紹 ---------- */
 
 .index .my-pic{
@@ -188,10 +203,10 @@ hr{
   content: '';
   display: inline-block;
   position: absolute;
-  bottom: 12px;
-  right: 18px;
+  bottom: 6%;
+  right: 6%;
   width: 88%;
-  height: 82%;
+  height: 78%;
   border-radius: 16px;
   background-color: #bed1c6;
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
@@ -224,23 +239,15 @@ hr{
   padding-right: 0.4em;
 }
 
+.index .my-text .link a{
+  border: 2px solid #bed1c6;  
+  color:#bed1c6;
+}
+
+
 
 /* ---------- end 自我介紹 ---------- */
 
-.color{color:#bed1c6;}
-.index .pic{width: 100%; max-width: 800px; margin: 0 auto; }
-.index .pic .col-3{padding: 24px 0;}
-.index .pic img{width: 60%; padding-bottom: 8px;}
-.index .tool{width: 100%; max-width: 600px; margin: 0 auto; }
-.index .tool img{width: 60%;padding-bottom: 8px;}
-.index .work .link{text-align: left; font-size: 1em;}
-.index .link{text-align: left; font-size: 2em;}
-.index .title{ display: inline-block; }
-.index .title:after{content: ''; position: absolute; bottom: 8px; left: 50%; transform: translate(-50%, 0); width: 100%; height: 16px; background-color:#bed1c6; padding: 0 8px; z-index: -1;}
-.link a{border: 2px solid #707070;  color:#707070;}
-.link a:before{background-color: #fff;}
-.link a:after{background-color: #fff;}
-    
 /* ---------- end for index ---------- */
 
 
@@ -336,6 +343,27 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
 }
 /* ---------- end kv ---------- */
 
+
+/* ---------- for index ---------- */
+
+/* ---------- 自我介紹 ---------- */
+
+.index .my-pic:before{
+  bottom: 30%;
+  right: 6%;
+  width: 88%;
+  height: 56%;
+}
+.index .pic img{ width: 70%; padding-bottom: 4px;}
+.index .tool img{width: 80%;padding-bottom: 4px;}
+.index .link{margin-top: 16px;}
+
+/* ---------- end 自我介紹 ---------- */
+
+/* ---------- end for index ---------- */
+
+
+
 }
 
 /* $iPad
@@ -382,6 +410,38 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
     /* font-size: 140px; */
 }
 /* ---------- end kv ---------- */
+
+
+/* ---------- for index ---------- */
+
+/* ---------- 自我介紹 ---------- */
+.index .my-pic{
+  width: 40%;
+  margin: 0 auto;
+}
+
+.index .my-pic:before{
+  bottom: -5%;
+  right: 8%;
+  width: 82%;
+  height: 80%;
+}
+
+.index .my-text{
+  width: 100%;
+}
+.index .link{
+  text-align: center;
+  margin-top: 16px;
+}
+.index .pic .col-3{width: calc(100%/3);}
+.index .pic img{ width: 60%; padding-bottom: 4px;}
+.index .tool .col-4{width: calc(100%/4);}
+.index .tool img{width: 70%;padding-bottom: 4px;}
+
+/* ---------- end 自我介紹 ---------- */
+
+/* ---------- end for index ---------- */
 
 
 }
@@ -588,7 +648,6 @@ hr {
 .index h2{font-size: 1.2em;}
 .index h4{font-size: 1.4em;}
 
-.index .link{font-size: 1em; margin: -24px 0 0 0;}
 
 .index .work .link{font-size: 1em; margin: -24px 0 0 0;}
 .index .pic .col-3{width: calc(100%/3);}
@@ -602,6 +661,40 @@ hr {
 .link a:after{background-color: #fff;}
 
 
+
+/* ---------- 自我介紹 ---------- */
+.index .my-pic{
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.index .my-pic:before{
+  bottom: -5%;
+  right: 0%;
+  width: 92%;
+  height: 88%;
+}
+
+.index .my-text{
+  width: 100%;
+}
+.index .my-text ul{
+  padding: 16px 0;
+}
+.index .my-text ul li{
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.index .link{
+  font-size: 1em; 
+  margin: 8px 0 0 0;
+  text-align: center;
+}
+
+
+/* ---------- end 自我介紹 ---------- */
     
 /* ---------- end for index ---------- */
 
