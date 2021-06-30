@@ -525,7 +525,7 @@
 
 /* ---------- 工作經歷輪播 ---------- */
 .time-line{
-  height: 720px;
+  height: 780px;
 }
 .time-line h1{
   max-width: 100%;
@@ -534,18 +534,18 @@
   text-align: center;
 }
 .time-line .dates-overflow{
-  padding-bottom: 140px;
+  padding-bottom: 120px;
 }
 
 .controls {
   /* display: none; */
   left: 16px;
-  bottom: 12%;
+  bottom: 8%;
 }
 .controls.next{
   /* display: none; */
   right: 16px;
-  bottom: 12%;
+  bottom: 8%;
 }
 .controls:hover:after{
   transform: translateX(0px) rotate(45deg);
