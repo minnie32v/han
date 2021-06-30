@@ -199,7 +199,7 @@ video {
   left: calc(50% - 77px);
   position: absolute;
   /* text-indent: -9999%; */
-  top: calc(50% - 100px);
+  top: calc(50% - 160px);
   transition: all 1s ease-in-out;
   width: 154px;
   z-index: 9999;
