@@ -89,7 +89,7 @@ header{
   align-items:center;
   height: 80px;
 }
-.header .logo{
+.header-logo{
   text-align: center;
   padding: 20px 0;
   display: inline-block;
