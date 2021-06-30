@@ -18,11 +18,11 @@ body {
 .venn {
   position: relative;
   /* left: 50%; */
-  top: 100px;
+  /* top: 100px; */
   /* transform: translate(-50%, 0); */
   width: 40%;
   height: 100%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
   /* padding-bottom: 40%; */
   overflow: hidden;
 }
