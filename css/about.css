@@ -222,13 +222,13 @@
 }
 
 .description .link{
-  font-size: 1.4em;
+  font-size: 1.2em;
   text-align: left;
   margin-left:8px;
 }
 
 .description .link a{
-  padding: 8px 32px ;
+  padding: 8px 24px ;
   border: 1px solid #707070;
   margin:16px 16px 0px 0px;
 }
