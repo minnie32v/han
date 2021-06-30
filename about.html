@@ -34,10 +34,10 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="my-pic">
+				<div class="my-pic" data-aos="fade-up" data-aos-duration="1500">
 					<img src="images/my.jpg" alt="">
 				</div>
-				<div class="my-text">
+				<div class="my-text" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
 					<h5>嗨，我是如涵，我是一位網頁設計師<br>
 					畢業於輔仁大學 應用美術學系 - 視覺傳達設計組</h5>
 					
@@ -59,7 +59,7 @@
 			
 			<div class="content">
 				<div class="row">
-					<div class="col-2 text-center">
+					<div class="col-2 text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600" >
 						<h4 class="color"><i class="fas fa-toolbox"></i><br>專業技能</h4>
 						<div class="row-center pic">
 							<div class="col-3">
@@ -76,7 +76,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-2 text-center">
+					<div class="col-2 text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="900">
 						<h4 class="color"><i class="fas fa-wrench"></i><br>擅長工具</h4>
 						<div class="row-center tool">
 							<div class="col-4">
@@ -99,14 +99,14 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 
-		<div class="time-line">
-			<h1>WORK EXPERIENCE</h1>
+		<div class="time-line" >
+			<h1 data-aos="fade-up" data-aos-duration="1500" >WORK EXPERIENCE</h1>
 			<div class="controls" data-direction="-1"></div>
 			<div class="controls next" data-direction="1"></div>
-			<div class="dates-overflow">
+			<div class="dates-overflow" data-aos="fade-up" data-aos-duration="1500">
 				<div class="dates-wrap">
 					<div class="date active">
 						<div class="date-year">
@@ -354,6 +354,7 @@
 		
 	<footer></footer>
 	<script>
+		AOS.init();
 	$(window).on("load", function() {
 	var dateWidth = $(".date").width(),
 	activeDate = 0,
