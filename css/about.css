@@ -1,7 +1,7 @@
 /* ---------- 自我介紹 ---------- */
 
 .my-pic{
-  width: 34%;
+  width: 28%;
   padding-top: 80px;
   padding-right: 40px;
   
@@ -10,10 +10,10 @@
   content: '';
   display: inline-block;
   position: absolute;
-  bottom: 16%;
+  bottom: 26%;
   right: 4%;
   width: 88%;
-  height: 64%;
+  height: 56%;
   border-radius: 16px;
   background-color: #bed1c6;
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
@@ -24,7 +24,7 @@
   box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
 }
 .my-text{
-  width: 64%;
+  width: 70%;
   padding-top: 80px;
 }
 .my-text h5{
@@ -395,10 +395,10 @@
   
 }
 .my-pic:before{
-  bottom: 44%;
+  bottom: 42%;
   right: 8%;
   width: 88%;
-  height: 40%;
+  height: 42%;
 }
 
 .my-pic img{
