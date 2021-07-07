@@ -316,7 +316,7 @@ footer{ background-color: #707070;}
 \*----------*/
 .header-container{ max-width: 800px;}
 
-.logo{font-size: 1.4em;}
+.header-logo{font-size: 1.4em;}
 nav ul li a{font-size: 1.4em; line-height: 1.2em;}
 
 /*----------*\
@@ -383,7 +383,7 @@ nav ul li a{font-size: 1.4em; line-height: 1.2em;}
 \*----------*/
 .header-container{ max-width: 700px;}
 
-.logo{font-size: 1.4em;}
+.header-logo{font-size: 1.4em;}
 nav ul li a{font-size: 1.4em; line-height: 1.2em;}
 
 /*----------*\
@@ -462,7 +462,7 @@ h5{ font-size: 1em;}
 /* h6{ font-size: 1em;} */
 p{ font-size: 0.8em;}
 
-.container{ width: auto; padding:0 16px;}
+.container{/*  width: auto; */ padding:0 16px;}
 .content{padding: 24px 0;}
 .row{flex-wrap: wrap;}
 
@@ -487,8 +487,7 @@ p{ font-size: 0.8em;}
   height: auto;
   padding: 0 16px;
 }
-
-.logo {
+.header-logo{
     height: auto;
     text-align: center;
     padding: 0;
