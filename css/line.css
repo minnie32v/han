@@ -1,47 +1,60 @@
-/*輪播*/
 .slider-box{ display:flex; flex-direction:column-reverse; }
+
+
+
+/* 輪播文字 不偏移 */
+.slider-nav .slick-list.draggable { height: 100%!important; }
+.slider-nav .slick-track{ /* transform: translateY(0px)!important;  */}
+
+/* 輪播文字 */
+.slider-nav{ width:60%;margin: 0 auto; }
+.slider-nav .slick-slide{ cursor:pointer; }
+.slider-nav .slick-slide{ text-align:left; }
+
+.slider-nav .slick-slide h4{ position:relative; padding:8px 0; text-align: center;}
+.slider-nav .slick-slide h4:before ,
+.slider-nav .slick-slide h4:after{ content:''; display:inline-block; transition:all .6s; }
+.slider-nav .slick-slide:nth-of-type(1) h4:after{display:none; }
+
+.slider-nav .slick-slide.slick-current ~ .slick-slide h4:before,
+.slider-nav .slick-slide.slick-current ~ .slick-slide h4:after{
+  background:#58c0ec;
+}
+
+/* .slider-nav .slick-slide .buy-list4 h4,
+.slider-nav .slick-slide.slick-current ~ .slick-slide .buy-list4 h4,
+.slider-nav .slick-slide .buy-list6 h4,
+.slider-nav .slick-slide.slick-current ~ .slick-slide .buy-list6 h4{
+  padding: 2em 0 0 0;
+}
+
+.slider-nav .slick-slide .buy-list4 h4:after,
+.slider-nav .slick-slide .buy-list6 h4:after{
+  height: 3em;
+  bottom: 1em;
+}
+ */
+
+/* 輪播圖片 */
 .slider-for{ width:100%; margin:0 auto; }
 .slider-for .slick-list{ width:80%; margin:0 auto; border-radius: 16px;}
-
-/* 輪播文字不偏移 */
-.slider-nav .slick-list.draggable { height: 100%!important; }
-.slider-nav .slick-track{/* padding-bottom: 40px; */ height: auto!important; transform: translate3d(0px, 0px, 0px)!important;/* 輪播文字跟圖不會亂跑 */}
+.slider-for{ width:40%; max-width:390px; padding:0px; }
+.slider-for .slick-list{ margin:0 auto; }
 
 
-.slider-nav .slick-dots li button:before ,
-.slick-dots li.slick-active button:before{ color:#f2e825; opacity:1;}
-.slider-nav .slick-dots li button:after{ content:''; background:#f2e825; display:block; width:30px; height:2px; position:absolute; right:3px; /* z-index:-1; */ } 
-.slider-nav .slick-dots li:nth-of-type(1) button:after{ display:none; }
-.slider-nav .slick-dots li.slick-active ~ li button:before{ color:#58c0ec; background:#58c0ec; opacity:1; }
-.slider-nav .slick-dots li.slick-active ~ li button:after{ background:#58c0ec; }
 
-/* .buy .buy-box .slider-for .slick-list{ max-width:600px;  } */
-.buy .slider-box .slider-nav .slick-slide h4 .step{display: inline-block; width: 90%; vertical-align: top; font-size: .8em; left:16px; transform-origin:left center; transition:all .5s cubic-bezier(.74,1.58,.67,.89); opacity:.5;}
-.buy .slider-box .slider-nav .slick-slide.slick-current h4 .step ,.buy .slider-box .slider-nav .slick-slide:hover h4 .step{ font-size: 1em; opacity:1;}
-
-.slider-nav .slick-slide{ cursor:pointer; }
-.slider-nav .slick-slide h4{ position:relative; padding:8px 0; }
-.slick-prev ,.slick-next{ width:1em; height:1em; font-size:4rem; }
-.slick-prev{ left:0; }
-.slick-prev:before ,.slick-next:before{ font-size:inherit; opacity:1; }
-.slick-prev:before{ content:'\e909'; font-family:'icomoon'; }
-.slick-next{ right:0; }
-.slick-next:before{ content:'\e910'; font-family:'icomoon'; }
-.slick-prev.slick-disabled:before ,.slick-next.slick-disabled:before{ opacity:0; }
-
-.slider-b .slick-prev:before, .slider-b .slick-next:before{color:#1e9dd2;}
-
-
-.multiple-items .slick-slide h4{ color:#fff; position:relative; padding:.8em 0; }
-.multiple-items .slick-slide img{ margin:0 auto; }
-.multiple-items .slick-dots button:before{ color:#58c0ec; opacity:1;}
-.multiple-items .slick-list{ z-index:1; }
-.multiple-items button{ z-index:2; }
+/* 圓點 線 */
+.slick-dots li button:before ,.slick-dots li.slick-active button:before{ color:#f2e825; opacity:1;}
+.slick-dots li button:after{ content:''; background:#f2e825; display:block; width:30px; height:2px; position:absolute; right:3px; /* z-index:-1; */ } 
+.slick-dots li:nth-of-type(1) button:after{ display:none; }
+.slick-dots li.slick-active ~ li button:before{ color:#58c0ec; background:#58c0ec; opacity:1; }
+.slick-dots li.slick-active ~ li button:after{ background:#58c0ec; }
 
 .slick-dots li{ width:12px; height:12px; margin:0 10px;}
 .slick-dots li button{ width:auto; height:auto; }
 .slick-dots li button:before{ font-size:0; width:100%; height:100%; border-radius:50%; }
 .slider-nav .slick-dots li button:before ,.slick-dots li.slick-active button:before{ background:#f2e825; }
+
 
 
 /* Tabs */
@@ -105,33 +118,6 @@
   pointer-events: auto;
  
 }
-
-
-
-.buy .slider-box{ flex-direction:row; align-items:center;}
-.buy .buy-box .slider-nav{ width:60%; }
-.buy .buy-box .slider-for{ width:40%; padding:0px;}
-.buy .buy-box .slider-for .slick-list{ margin:0 auto; }
-.buy .slider-box .slider-nav .slick-slide{ text-align:left; }
-.buy .slider-box .slider-nav .slick-slide h4:before ,.buy .slider-box .slider-nav .slick-slide h4:after{ content:''; display:inline-block; transition:all .6s; }
-.buy .slider-box .slider-nav .slick-slide h4:before{ width:16px; height:16px; border-radius:50%; background:#f2e825; margin-right:10px; z-index:1; position:relative; }
-.buy .slider-box .slider-nav .slick-slide h4:after{ position:absolute; width:2px; height:100%; background:#f2e825; z-index:0; left:7px; bottom:20px; z-index:0; }
-.buy .slider-box .slider-nav .slick-slide:nth-of-type(1) h4:after{ display:none; }
-.buy .slider-box .slider-nav .slick-slide.slick-current ~ .slick-slide h4:before,
-.buy .slider-box .slider-nav .slick-slide.slick-current ~ .slick-slide h4:after{ background:#58c0ec; }
-.buy-online .slider-box .slider-nav .slick-slide .buy-list4 h4,
-.buy-online .slider-box .slider-nav .slick-slide.slick-current ~ .slick-slide .buy-list4 h4,
-.buy-online .slider-box .slider-nav .slick-slide .buy-list6 h4,
-.buy-online .slider-box .slider-nav .slick-slide.slick-current ~ .slick-slide .buy-list6 h4{
-  padding: 2em 0 0 0;
-}
-
-.buy-online .slider-box .slider-nav .slick-slide .buy-list4 h4:after,
-.buy-online .slider-box .slider-nav .slick-slide .buy-list6 h4:after{
-  height: 3em;
-  bottom: 1em;
-}
-.buy-online .group .slider-for{ max-width:390px; }
 
 
 
@@ -251,6 +237,7 @@
 .slider-for .slick-list{
   width: 50%;
 }
+
 .buy .titleA{ margin-bottom:30px; }
 .buy .slider-box{ flex-direction:column-reverse; }
 .buy .buy-box .slider-for{ width:100%; margin:0 auto; }

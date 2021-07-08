@@ -39,20 +39,21 @@
 			<div class="tab">
 				<section class="container buy buy-online">
 					<h2>集合啦！聯名好友會<br>LINE心理測驗活動設計</h2>		
+					
 					<div class="slider-box buy-box">
-						<div class="slider-nav">
-							<div><h4><div class="step">心裡測驗首頁，說明活動日期及活動目的。</div></h4></div>
-							<div><h4><div class="step">選擇商品，置入聯名商品圖，提供消費者測驗選項。</div></h4></div>
-							<div><h4><div class="step">分享型島主分析</div></h4></div>
-							<div><h4><div class="step">社交型島主分析</div></h4></div>
-							<div><h4><div class="step">資訊型島主分析</div></h4></div>
-							<div><h4><div class="step">還債型島主分析</div></h4></div>
-							<div><h4><div class="step">心裡測驗完成</div></h4></div>
-							<div><h4><div class="step">抽千元商品卡</div></h4></div>
-							<div><h4><div class="step">獎項清單</div></h4></div>
-							<div><h4><div class="step">獎項顯示</div></h4></div>
+						<div class=" slider-nav ">
+							<div class="buy-list1"><h4><span>心裡測驗首頁，說明活動日期及活動目的。</span></h4></div>
+							<div class="buy-list2"><h4><span>選擇商品，置入聯名商品圖，提供消費者測驗選項。</span></h4></div>
+							<div class="buy-list3"><h4><span>分享型島主分析</span></h4></div>
+							<div class="buy-list4"><h4><span>社交型島主分析</span></h4></div>
+							<div class="buy-list5"><h4><span>資訊型島主分析</span></h4></div>
+							<div class="buy-list6"><h4><span>還債型島主分析</span></h4></div>
+							<div class="buy-list7"><h4><span>心裡測驗完成</span></h4></div>
+							<div class="buy-list8"><h4><span>抽千元商品卡</span></h4></div>
+							<div class="buy-list9"><h4><span>獎項清單</span></h4></div>
+							<div class="buy-list10"><h4><span>獎項顯示</span></h4></div>
 						</div>
-						<div class="slider-for">
+						<div class=" slider-for ">
 							<img src="images/line-animal/pic-01.jpg">
 							<img src="images/line-animal/pic-02.jpg">
 							<img src="images/line-animal/pic-03.jpg">
@@ -64,41 +65,29 @@
 							<img src="images/line-animal/pic-09.jpg">
 							<img src="images/line-animal/pic-10.jpg">
 						</div>
-					</div>					
+					</div>	
 				</section>
 			</div>
 	</section>	
 <footer></footer>
 <script>
-//購買流程-輪播
+//兌換流程-輪播1
 	$('.slider-for').slick({
-	lazyLoad: 'ondemand',
-	slidesToShow:1,
-	slidesToScroll:1,
-	arrows:true,
-	infinite:false,
-	asNavFor:'.slider-nav'
+	  lazyLoad: 'ondemand',
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:false,
+	  infinite:false,
+	  asNavFor:'.slider-nav'
 	});
 	$('.slider-nav').slick({
-	slidesToShow:7,
-	slidesToScroll:1,
-	arrows:false,
-	dots:false,
-	focusOnSelect: true,
-	vertical:true,
-	infinite:false,
-	asNavFor:'.slider-for',
-	responsive: [
-	{
-	breakpoint: 480,
-	settings: {
-	slidesToShow:1,
-	slidesToScroll: 1,
-	vertical:false,
-	dots:true,
-	}
-	}
-	]
+	  slidesToShow:1,
+	  slidesToScroll:1,
+	  arrows:false,
+	  dots:true,
+	  focusOnSelect: true,
+	  infinite:false,
+	  asNavFor:'.slider-for'
 	});
 </script>
 </body>
