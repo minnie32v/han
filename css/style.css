@@ -61,7 +61,7 @@ a{ text-decoration: none;}
 .col-3{ width: calc(100%/3 - 24px);}
 .col-4{ width: calc(100%/4 - 24px);}
 .col-5{ width: calc(100%/5 - 24px);}
-.col-6{ width: calc(100%/6 - 24px);}
+.col-6{ width: calc(100%/6);}
 .text-center{ text-align: center;}
 
 /* $Pc
@@ -183,10 +183,11 @@ hr{
 .index .work .link{text-align: left; font-size: 2em;}
 .pic{width: 100%; max-width: 800px; margin: 0 auto; }
 .pic .col-3{padding: 24px 0;}
-.pic img{width: 100%; padding-bottom: 8px;}
+.pic img{width: 60%; padding-bottom: 8px;}
 .index .pic img{width: 60%; padding-bottom: 8px;}
-.tool{width: 100%; max-width: 600px; margin: 0 auto; }
-.tool img{width: 60%;padding-bottom: 8px;}
+.tool{width: 100%;  margin: 0 auto; }
+.tool .col-6{padding: 24px 0; }
+.tool img{width: 80%;padding-bottom: 8px;}
 .index .link{text-align: left; font-size: 2em;margin-top: 16px;}
 .link a{border: 2px solid #707070;  color:#707070;}
 .link a:before{background-color: #fff;}
