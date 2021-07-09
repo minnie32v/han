@@ -49,7 +49,7 @@
 		.bg-color3{background-color: #F18B27;}
 		.bg-color4{background-color: #F2E400;}
 		.bg-color5{background-color: #F7F7FA;border: 1px solid #707070;}
-		.link a{border: 2px solid #F18B27;	color:#F18B27;}
+				.link a{border: 2px solid #F18B27;	color:#F18B27;}
 		.link a:before{background-color: #fff;}
 		.link a:after{background-color: #fff;}
 		footer{ background-color: #05B4EE;}
@@ -65,11 +65,38 @@
 		</div>
 	</div>
 	<!-- end kv -->
-	<section class="step">			
+	<!-- 專案目標 -->
+	<div class="intro bg-color">
+		<div class="container">
+			<h3 class="color1">LINE心理測驗活動設計</h3>
+			<h4 class="color2">整合icash與各銀行合作優惠</h4>
+			<p>以往都用圖片的方式呈現優惠訊息，不僅資訊雜亂，也看不出重點，2020下半年合作銀行數量變多，因此改版將資訊重新整理，讓消費者更能清楚了解各家銀行的優惠資訊。</p>
+		</div>
+	</div>
+	<!-- end 專案目標 -->
+	<div class="container">
+		<!-- 色彩規範 -->
+		<div class="content" data-aos="fade-up" data-aos-duration="1500">
+			<div class="row">
+				<div class="col-2">
+					<h3 class="color1">色彩規範</h3>
+					<p>以行動隨時取海報視覺延伸配色。</p>
+				</div>
+				<div class="col-2">
+					<div class="row-color">
+						<div class="col-5 circle bg-color1"></div>
+						<div class="col-5 circle bg-color2"></div>
+						<div class="col-5 circle bg-color3"></div>
+						<div class="col-5 circle bg-color4"></div>
+						<div class="col-5 circle bg-color5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end 色彩規範 -->
+		<section class="step">
 			<div class="tab">
-				<section class="container buy buy-online">
-					<h4 class="text-center">LINE心理測驗活動設計</h4>		
-					
+				<section class="container buy buy-online">			
 					<div class="slider-box buy-box">
 						<div class="slider-nav">
 							<div class="nav-text">心裡測驗首頁，說明活動日期及活動目的。</div>
@@ -95,29 +122,32 @@
 							<img src="images/line-animal/pic-09.jpg">
 							<img src="images/line-animal/pic-10.jpg">
 						</div>
-					</div>	
+					</div>
 				</section>
 			</div>
-	</section>	
+		</section>
+	</div>
+	
 <footer></footer>
 <script>
+AOS.init();
 //兌換流程-輪播1
 	$('.slider-for').slick({
-	  lazyLoad: 'ondemand',
-	  slidesToShow:1,
-	  slidesToScroll:1,
-	  arrows:false,
-	  infinite:false,
-	  asNavFor:'.slider-nav'
+	lazyLoad: 'ondemand',
+	slidesToShow:1,
+	slidesToScroll:1,
+	arrows:false,
+	infinite:false,
+	asNavFor:'.slider-nav'
 	});
 	$('.slider-nav').slick({
-	  slidesToShow:1,
-	  slidesToScroll:1,
-	  arrows:false,
-	  dots:true,
-	  focusOnSelect: true,
-	  infinite:false,
-	  asNavFor:'.slider-for'
+	slidesToShow:1,
+	slidesToScroll:1,
+	arrows:false,
+	dots:true,
+	focusOnSelect: true,
+	infinite:false,
+	asNavFor:'.slider-for'
 	});
 </script>
 </body>
