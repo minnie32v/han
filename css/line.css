@@ -9,23 +9,23 @@
 
 .slider-nav .slick-slide.slick-current ~ .slick-slide .nav-text:before,
 .slider-nav .slick-slide.slick-current ~ .slick-slide .nav-text:after{
-  background:#17B1E7;
+  background:#05B8AE;
 }
 
 /* 輪播圖片 */
-.slider-for{ width:30%; margin:0 auto;}
-.slider-for .slick-list{ width:80%; margin:0 auto; border-radius: 16px;}
+.slider-for{ width:44%; margin:0 auto;}
+.slider-for .slick-list{ width:100%; margin:0 auto; border-radius: 16px;}
 
 
 /* 圓點 線 */
 .slick-dots li{ width:12px; height:12px; margin:0 10px;}
 .slick-dots li button{ width:auto; height:auto; }
 .slick-dots li button:before{ font-size:0; width:100%; height:100%; border-radius:50%; }
-.slick-dots li button:before ,.slick-dots li.slick-active button:before{ background:#FFCC21; color:#FFCC21; opacity:1;}
-.slick-dots li button:after{ content:''; background:#FFCC21; display:block; width:30px; height:2px; position:absolute; right:3px; /* z-index:-1; */ } 
+.slick-dots li button:before ,.slick-dots li.slick-active button:before{ background:#F37146; color:#F37146; opacity:1;}
+.slick-dots li button:after{ content:''; background:#F37146; display:block; width:30px; height:2px; position:absolute; right:3px; /* z-index:-1; */ } 
 .slick-dots li:nth-of-type(1) button:after{ display:none; }
-.slick-dots li.slick-active ~ li button:before{ color:#17B1E7; background:#17B1E7; opacity:1; }
-.slick-dots li.slick-active ~ li button:after{ background:#17B1E7; }
+.slick-dots li.slick-active ~ li button:before{ color:#05B8AE; background:#05B8AE; opacity:1; }
+.slick-dots li.slick-active ~ li button:after{ background:#05B8AE; }
 
 
 /* Tabs */
@@ -34,7 +34,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: #17B1E7;
+  background-color: #05B8AE;
    z-index: 1;
    padding-bottom: 60px;
 }
@@ -48,9 +48,9 @@
   cursor: pointer;
   background: #fff;
   border-radius: 50px;
-  border: 1px solid #17B1E7;
-  color: #17B1E7;
-  box-shadow: 6px 6px 0 #FFCC21;
+  border: 1px solid #05B8AE;
+  color: #05B8AE;
+  box-shadow: 6px 6px 0 #F37146;
   font-size: 2.4em;
   font-weight: bold;
   -webkit-transition: background ease 0.2s;
@@ -80,7 +80,7 @@
   border-radius: 50px;
   border: 1px solid #fff;
   color: #fff;
-  box-shadow: 6px 6px 0 #FFCC21;
+  box-shadow: 6px 6px 0 #F37146;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {
