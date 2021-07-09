@@ -689,7 +689,13 @@ hr {
   margin: 8px 0 0 0;
   text-align: center;
 }
-
+.tool .col-6{
+  width: calc(100%/3);
+  padding: 8px 0;
+}
+.tool img{
+  width: 50%;
+}
 
 /* ---------- end 自我介紹 ---------- */
     
