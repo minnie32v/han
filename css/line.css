@@ -1,4 +1,4 @@
-.slider-box{ display:flex; flex-direction:column-reverse; }
+.slider-box{ display:flex; flex-direction:column; }
 
 /* 輪播文字 */
 .slider-nav{ width:100%;margin: 0 auto; }
@@ -97,6 +97,10 @@
 @media screen and (min-width:1024px) and (max-width:1365px){
 
 
+/* 輪播圖片 */
+.slider-for{ width:56%;}
+
+
 }
 
 /* $iPad
@@ -113,32 +117,12 @@
 @media screen and (max-width:767px){
 
 
-.slider-box{ flex-direction:column-reverse; }
-
+/* 輪播圖片 */
+.slider-for{ width:100%;}
+.slider-for .slick-list{ width: 60%;}
 
 /* 輪播文字 */
-.slider-nav{ width:100%; }
-.slider-nav .slick-slide{ text-align:center; }
-.slider-nav .slick-slide .nav-text:before ,
-.slider-nav .slick-slide .nav-text:after{ display:none; }
-
-.slider-nav .slick-slide .nav-text{
-  position: relative;
-  padding: 1em 0 0 0;
-  width: 90%;
-  margin: 0 auto;
-  font-size:1.6rem;
-}
-
-
-/* 輪播圖片 */
-.slider-for{ width:100%; margin:0 auto; }
-.slider-for .slick-list{ width: 50%;}
-
-
-/* tab */
-.tabs{ padding: 0 0 24px 0;}
-.tabs label{ font-size: 1.5em; margin: .4em; }
+.slider-nav .slick-slide{ font-size:1em;}
 
 
 
