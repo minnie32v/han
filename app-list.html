@@ -1,5 +1,5 @@
-﻿<!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<!DOCTYPE html>
+<html lang="zh-Hant">
 	<head>
 		<!-- viewport -->
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
@@ -24,472 +24,80 @@
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link rel="stylesheet" href="js/lib/slick/slick.css">
 		<link rel="stylesheet" href="js/lib/slick/slick-theme.css">
-		<link rel="stylesheet" href="css/app_page.css">
+		<link rel="stylesheet" href="css/pagination.css">
+		<link rel="stylesheet" href="css/effect.css">
 		<link rel="stylesheet" href="css/style.css">
 		<!-- jQuery -->
 		<script src="js/jquery-3.5.1.min.js"></script>
 		<script src="js/lib/slick/slick.min.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="js/pagination.js"></script>
+		<script src="js/lib/mixitup-3/mixitup.min.js"></script>
+		<script src="js/lib/mixitup-3/mixitup-pagination.js"></script>
 		<!-- custom js -->
 		<script src="js/script.js"></script>
-
 	</head>
-	<body class="bg-b-d">
+	<body>
 	<header></header>
-	<section class="app-content">
-		<div class="container">
-			<div class="tabs">
-				<div class="app-tab">
-					<!-- 7-ELEVEN APP -->
-					<h4 class="app-title">7-ELEVEN APP</h4>
-					<input type="radio" name="tabs" id="tab1" checked="checked">
-					<label for="tab1"><h5 class="app-name">抽抽樂</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-1">
-								<img src="images/app/711-1/step-1.jpg">
-								<img src="images/app/711-1/step-2.jpg">
-								<img src="images/app/711-1/step-3.jpg">
-								<img src="images/app/711-1/step-4.jpg">
-								<img src="images/app/711-1/step-5.jpg">
-								<img src="images/app/711-1/step-6.jpg">
-								<img src="images/app/711-1/step-7.jpg">
-								<img src="images/app/711-1/step-8.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-1">
-									<div><h4><div class="step">下載 7-ELEVEN APP，並開啟。</div></h4></div>
-									<div><h4><div class="step">進入APP主畫面(預設樣式不在此專案內)，點抽抽樂按鈕，進入遊戲畫面。</div></h4></div>
-									<div><h4><div class="step">遊戲首頁，將主視覺和按鈕、選單及後面的遊戲畫面，皆做成模組，方便每檔期活動替換視覺跟活動內容。</span></h4></div>
-									<div><h4><div class="step">提示遊戲規則，讓使用者了解遊戲方式。</div></h4></div>
-									<div><h4><div class="step">將四格戳戳樂點選時進入動態畫面，讓使用者等待loading時也有期待感。</div></h4></div>
-									<div><h4><div class="step">獲獎畫面以圖像視覺為主，讓消費者第一眼就知道獎項，再依照下方說明文字、連結進行兌獎步驟。</div></h4></div>
-									<div><h4><div class="step">獎項若無馬上兌換，點選APP主選單『我的好康』> 『活動贈獎』可隨時兌換獎項。</div></h4></div>
-									<div><h4><div class="step">進入後，同樣以圖像視覺為主，一目了然獎項內容、條碼，下方文字再加強說明獎項內容、期限、通路...等資訊。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<input type="radio" name="tabs" id="tab2">
-					<label for="tab2"><h5 class="app-name">發票掃描刮刮樂</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-2">
-								<img src="images/app/711-2/step-1.jpg">
-								<img src="images/app/711-2/step-2.jpg">
-								<img src="images/app/711-2/step-3.jpg">
-								<img src="images/app/711-2/step-4.jpg">
-								<img src="images/app/711-2/step-5.jpg">
-								<img src="images/app/711-2/step-6.jpg">
-								<img src="images/app/711-2/step-7.jpg">
-								<img src="images/app/711-2/step-8.jpg">
-								<img src="images/app/711-2/step-9.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-2">
-									<div><h4><div class="step">進入7-ELEVEN APP，點選發票登錄刮刮樂，活動首頁將活動辦法顯示在下方，讓使用者先了解活動內容。</div></h4></div>
-									<div><h4><div class="step">活動方式有兩種，直接掃描發票或登錄載具發票，整合雲端資料，可一次匯入符合條件之發票，就不需手動一張一張登錄。</div></h4></div>
-									<div><h4><div class="step">方法一：掃描發票畫面</div></h4></div>
-									<div><h4><div class="step">掃描發票後，會顯示登錄成功的訊息。</div></h4></div>
-									<div><h4><div class="step">方法二：登錄載具資料，匯入活動期限內整批發票。</div></h4></div>
-									<div><h4><div class="step">以顏色區分，符合條件可參加活動的發票，以及明細方便消費者查看，並將未符合、已經參加過的發票，以灰色顯示，表示不能點擊。</div></h4></div>
-									<div><h4><div class="step">查詢明細可以顯示發票內容與金額，方便複查活動條件。</div></h4></div>
-									<div><h4><div class="step">按參加後，即可進行刮刮樂遊戲。</div></h4></div>
-									<div><h4><div class="step">獲獎畫面，可選擇繼續玩，或掃描下一張發票。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- end 7-ELEVEN APP -->
-					<!-- 星巴克 APP -->
-					
-					<h4 class="app-title">星巴克 APP</h4>
-					<input type="radio" name="tabs" id="tab3">
-					<label for="tab3"><h5 class="app-name">秋冬 驚喜大富翁</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-3">
-								<img src="images/app/starbucks-1/step-1.jpg">
-								<img src="images/app/starbucks-1/step-2.jpg">
-								<img src="images/app/starbucks-1/step-3.jpg">
-								<img src="images/app/starbucks-1/step-4.jpg">
-								<img src="images/app/starbucks-1/step-5.jpg">
-								<img src="images/app/starbucks-1/step-6.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-3">
-									<div><h4><div class="step">以大富翁立體格子狀的圖形為主視覺，運用大地色系，加上一些落葉及柑橘，設計出秋天的氛圍感。</div></h4></div>
-									<div><h4><div class="step">由主視覺延伸，運用不規則的輔助圖形來設計背景。</div></h4></div>
-									<div><h4><div class="step">大富翁遊戲機制和圖案每檔期皆固定，只需更換背景圖片設計，搭配此活動整體視覺。</div></h4></div>
-									<div><h4><div class="step">顯示步數的畫面，背景同遊戲頁面。</div></h4></div>
-									<div><h4><div class="step">放大顯示走到的格子，凸顯獲得獎勵的驚喜感。</div></h4></div>
-									<div><h4><div class="step">最後中獎頁面，背景也是同遊戲畫面，將底色做區隔，凸顯出獎項內容。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<input type="radio" name="tabs" id="tab4">
-					<label for="tab4"><h5 class="app-name">秋冬 驚喜戳戳樂</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-4">
-								<img src="images/app/starbucks-2/step-1.jpg">
-								<img src="images/app/starbucks-2/step-2.jpg">
-								<img src="images/app/starbucks-2/step-3.jpg">
-								<img src="images/app/starbucks-2/step-4.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-4">
-									<div><h4><div class="step">以戳戳樂戳破的概念為主視覺，運用大地色系，加上一些落葉及柑橘，設計出秋天的氛圍感。</div></h4></div>
-									<div><h4><div class="step">由主視覺延伸，運用柑橘、落葉...等元素，搭配不規則的輔助圖形來設計背景。</div></h4></div>
-									<div><h4><div class="step">遊戲畫面，戳戳樂的動態圖案為固定形式，只能修改背景圖片，讓整體視覺有一致性。</div></h4></div>
-									<div><h4><div class="step">最後中獎頁面，背景也是同遊戲畫面，將底色做區隔，凸顯出獎項內容。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<input type="radio" name="tabs" id="tab5">
-					<label for="tab5"><h5 class="app-name">經典 驚喜戳戳樂</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-5">
-								<img src="images/app/starbucks-3/step-1.jpg">
-								<img src="images/app/starbucks-3/step-2.jpg">
-								<img src="images/app/starbucks-3/step-3.jpg">
-								<img src="images/app/starbucks-3/step-4.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-5">
-									<div><h4><div class="step">主視覺以戳戳樂”洞“的這個概念去發想，搭配經典色系，給人一種太空探險，戳洞後冒出驚喜的感覺。</div></h4></div>
-									<div><h4><div class="step">由主視覺延伸，運用線條、星星閃爍的元素，不規則的排列來設計背景。</div></h4></div>
-									<div><h4><div class="step">遊戲畫面，戳戳樂的動態圖案為固定形式，只能修改背景圖片，運用不規則的幾何圖形色塊，讓整體視覺有一致性。</div></h4></div>
-									<div><h4><div class="step">最後中獎頁面，背景也是同遊戲畫面，將底色做區隔，凸顯出獎項內容。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<input type="radio" name="tabs" id="tab6">
-					<label for="tab6"><h5 class="app-name">經典 驚喜搖搖杯</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-6">
-								<img src="images/app/starbucks-4/step-1.jpg">
-								<img src="images/app/starbucks-4/step-2.jpg">
-								<img src="images/app/starbucks-4/step-3.jpg">
-								<img src="images/app/starbucks-4/step-4.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-6">
-									<div><h4><div class="step">主視覺以搖搖杯遊戲動態去延伸，運用經典色系及流線的元素，讓咖啡杯就像魔法杯一般，搖一搖就能獲得優惠驚喜。</div></h4></div>
-									<div><h4><div class="step">由主視覺延伸，運用線條、星星閃爍的元素，不規則的排列來設計背景。</div></h4></div>
-									<div><h4><div class="step">遊戲畫面，搖搖杯的動態圖案為固定形式，只能修改背景圖片，讓整體視覺有一致性。</div></h4></div>
-									<div><h4><div class="step">最後中獎頁面，背景也是同遊戲畫面，將底色做區隔，凸顯出獎項內容。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<input type="radio" name="tabs" id="tab7">
-					<label for="tab7"><h5 class="app-name">春夏 驚喜轉轉樂</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-7">
-								<img src="images/app/starbucks-5/step-1.jpg">
-								<img src="images/app/starbucks-5/step-2.jpg">
-								<img src="images/app/starbucks-5/step-3.jpg">
-								<img src="images/app/starbucks-5/step-4.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-7">
-									<div><h4><div class="step">主視覺以花構成的轉盤為主，搭配花草、葉子、花粉等元素，搭配粉嫩的色系，設計出春天的氛圍。</div></h4></div>
-									<div><h4><div class="step">由主視覺延伸，運用花草和葉子的元素，搭配不規則色塊來設計背景。</div></h4></div>
-									<div><h4><div class="step">遊戲畫面，轉盤的動態圖案為固定形式，只能修改背景圖片，讓整體視覺有一致性。</div></h4></div>
-									<div><h4><div class="step">最後中獎頁面，背景也是同遊戲畫面，將底色做區隔，凸顯出獎項內容。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<input type="radio" name="tabs" id="tab8">
-					<label for="tab8"><h5 class="app-name">夏日 歡樂戳戳樂</h5></label>
-					<div class="tab">
-						<div class="slider-box">
-							<div class="slider-for for-8">
-								<img src="images/app/starbucks-6/step-1.jpg">
-								<img src="images/app/starbucks-6/step-2.jpg">
-								<img src="images/app/starbucks-6/step-3.jpg">
-								<img src="images/app/starbucks-6/step-4.jpg">
-							</div>
-							<div class="bg-color">
-								<div class="slider-nav nav-8">
-									<div><h4><div class="step">主視覺以三朵花比喻戳戳樂格子的意象，除了花草以外，加上飽和的亮眼的配色，呈現夏日豔陽高照，有活力的氛圍。</div></h4></div>
-									<div><h4><div class="step">由主視覺延伸，運用花草和葉子的元素，搭配不規則色塊來設計背景。</div></h4></div>
-									<div><h4><div class="step">遊戲畫面，戳戳樂的動態圖案為固定形式，只能修改背景圖片，讓整體視覺有一致性。</div></h4></div>
-									<div><h4><div class="step">最後中獎頁面，背景也是同遊戲畫面。</div></h4></div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					<!-- end 星巴克 APP -->
-				</div>
+	<!-- 寄件 -->
+	<section class="container">
+		<div class="tab">
+			<button type="button" class="category" data-filter="all">全部</button>
+			<button type="button" class="category" data-filter=".event">APP活動</button>
+			<button type="button" class="category" data-filter=".redesign">Redesign</button>
+		</div>
+		<div class="list-content">
+			<div class="mix other col-2">
+				<figure class="effect-sadie">
+					<img src="images/app/711app/711app.jpg">
+					<figcaption>
+					<h2>統一集團APP活動遊戲製作</h2>
+					<p>設計&切版</p>
+					<a href="711app.html" target="_blank">View more</a>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="mix other col-2">
+				<figure class="effect-sadie">
+					<img src="images/app/ubereats/ubereats.jpg">
+					<figcaption>
+					<h2>UberEats環保外送</h2>
+					<p>Redesign & 新增功能</p>
+					<a href="ubereats.html" target="_blank">View more</a>
+					</figcaption>
+				</figure>
 			</div>
 		</div>
+		<!-- 分頁 -->
+		<div class="controls-pagination">
+			<div class="mixitup-page-list"></div>
+		</div>
+		<input type="hidden" class="column-counter"/>
 	</section>
-	
+	<!-- end 寄件 -->
 <footer></footer>
+</body>
 <script>
-// APP Tab slick
+// JavaScript Document
 $(document).ready(function(){
-	//1
-	$('.for-1').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:false,
-		infinite:false,
-		asNavFor:'.nav-1'
-	});
-	$('.nav-1').slick({
-			slidesToShow:8,
-			slidesToScroll:1,
-			arrows:false,
-			dots:false,
-			focusOnSelect: true,
-			vertical:true,
-			infinite:false,
-			asNavFor:'.for-1',
-			responsive: [
-				{
-					breakpoint: 480,
-					settings: {
-						slidesToShow:1,
-						slidesToScroll: 1,
-						vertical:false,
-						dots:false
-					}
-				}
-			]
-	});
-	//2
-	$('.for-2').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
+	// slick輪播
+	$('.kv-slick').slick({
+		dots: true,
 		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-2'
-	});
-	$('.nav-2').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-2',
+		infinite: true,
+		autoplaySpeed: 3000,
+		autoplay:true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
 		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
+	{
+	breakpoint: 768,
+	settings: {
+	arrows: false
+	}
+	}
+	]
 	});
-	//3
-	$('.for-3').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-3'
-	});
-	$('.nav-3').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-3',
-		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
-	});
-	//4
-	$('.for-4').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-4'
-	});
-	$('.nav-4').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-4',
-		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
-	});
-	//5
-	$('.for-5').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-5'
-	});
-	$('.nav-5').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-5',
-		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
-	});
-	//6
-	$('.for-6').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-6'
-	});
-	$('.nav-6').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-6',
-		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
-	});
-	//7
-	$('.for-7').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-7'
-	});
-	$('.nav-7').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-7',
-		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
-	});
-	//8
-	$('.for-8').slick({
-		lazyLoad: 'ondemand',
-		slidesToShow:1,
-		slidesToScroll:1,
-		arrows:true,
-		infinite:false,
-		asNavFor:'.nav-8'
-	});
-	$('.nav-8').slick({
-		slidesToShow:8,
-		slidesToScroll:1,
-		arrows:false,
-		dots:false,
-		focusOnSelect: true,
-		vertical:true,
-		infinite:false,
-		asNavFor:'.for-8',
-		responsive: [
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow:1,
-					slidesToScroll: 1,
-					vertical:false,
-					dots:false
-				}
-			}
-		]
-	});
-
-
-
 });
 </script>
-</body>
 </html>
