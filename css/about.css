@@ -155,11 +155,10 @@
 .time-line .dates-wrap .date .date-content {
   visibility: hidden;
   position: absolute;
-  width: 640px;
-  height: 400px;
+  width: 800px;
+  height: 410px;
   bottom: 100%;
   margin-bottom: 40px;
-  /* margin-bottom: 80px; */
   border-radius: 3px;
   transform-origin: 50% 100%;
   transform: scale(0.7);
