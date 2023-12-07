@@ -85,7 +85,7 @@
 	padding: 0;
 }
 
-ul li{
+.col-2 ul li{
 	list-style-type: disc;
 	font-size: 1.6em;
     line-height: 1.6em;
@@ -120,7 +120,7 @@ ul li{
 	opacity: 1;
 }
 .slick-dots li button:before{
-	font-size: 16px;
+	font-size: 8px;
 }
 
 
