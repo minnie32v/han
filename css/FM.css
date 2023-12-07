@@ -68,7 +68,9 @@
 /* $Mobile
 --------------------------------------------------------------------------------------*/
 @media screen and (max-width:767px){
-
+.dot-bg{
+	background: none;
+}
 .persona{
     width: 80%;
     padding-top: 16%;
