@@ -338,7 +338,7 @@
 	padding: 8px;
 }
 
-ul li{
+.col-2 ul li{
 	list-style-type: disc;
 	font-size: 0.8em;
     line-height: 1.6em;
@@ -352,7 +352,9 @@ ul li{
     margin-left: 1.4em;
 }
 
-
+.col-2.design-c{
+	
+}
 
 /* ---------- end web page排版共用 ---------- */
 

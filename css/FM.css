@@ -82,8 +82,11 @@
     width: 100%;
     position: relative;
 }
-.design-c{
+.col-2.design-c{
 	width: 100%;
+}
+.col-6.arrow{
+	display: none;
 }
 .functional-map{
 	
