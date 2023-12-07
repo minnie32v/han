@@ -1,0 +1,94 @@
+.persona{
+	background: url('../images/app/FM/Persona.png') no-repeat top left;
+	-webkit-background-size: cover;
+	background-size: cover;
+    width: 80%;
+    padding-top: 16%;
+    position: relative;
+    margin: 80px 0 -50px -80px;
+}
+.design-bg{
+	background: url('../images/app/FM/design-bg.png') no-repeat bottom center;
+	-webkit-background-size: contain;
+	background-size: contain;
+    width: 100%;
+    position: relative;
+}
+.col-2.design-c{
+	width: 60%;
+}
+.functional-map{
+	background: url('../images/app/FM/functional-map.png') no-repeat bottom center;
+	-webkit-background-size: cover;
+	background-size: cover;
+    width: 67%;
+    padding-top: 31%;
+    position: relative;
+    margin: 80px 0 0 0;
+}
+.FM-21{
+	width: 75%;
+	position: absolute;
+    right: 0;
+    top: -240px;
+}
+
+
+/* $iPad pro
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:1024px) and (max-width:1365px){
+
+
+
+
+
+}
+
+/* $iPad
+--------------------------------------------------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:1023px){
+
+
+
+}
+
+
+/* $Mobile
+--------------------------------------------------------------------------------------*/
+@media screen and (max-width:767px){
+
+.persona{
+    width: 80%;
+    padding-top: 16%;
+    position: relative;
+    margin: 0;
+}
+.design-bg{
+	
+    width: 100%;
+    position: relative;
+}
+.design-c{
+	width: 100%;
+}
+.functional-map{
+	
+    width: 100%;
+    padding-top: 46%;
+    position: relative;
+    margin: 40px 0 0 0;
+}
+.FM-21{
+	width: 100%;
+	position: relative;
+    right: 0;
+    top: -40px;
+}
+
+
+
+}
+
+
+
+
