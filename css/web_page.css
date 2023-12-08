@@ -84,8 +84,7 @@
 .block-1 p,.block-2 p,.block-3 p{
 	padding: 0;
 }
-
-.col-2 ul li{
+.row ul li,.col-2 ul li{
 	list-style-type: disc;
 	font-size: 1.6em;
     line-height: 1.6em;
@@ -338,7 +337,7 @@
 	padding: 8px;
 }
 
-.col-2 ul li{
+.row ul li,.col-2 ul li{
 	list-style-type: disc;
 	font-size: 0.8em;
     line-height: 1.6em;
