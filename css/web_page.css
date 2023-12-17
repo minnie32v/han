@@ -99,7 +99,7 @@
 
 
 .slick-initialized .slick-slide{
-	display: inline-block;
+	display: flex;
 	align-items: center;
 }
 .slick-prev:before, .slick-next:before{
